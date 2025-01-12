@@ -113,14 +113,14 @@ article > p {
    margin-left: 10px;
 }
 
-div {   
+section {   
    width: 550px;
    height: 350px;
    margin-top: -550px;
    box-shadow: 3px 3px 3px rgba(0, 0, 0, 0.247);
 }
 
-div > img.pai {
+section > img.pai {
    width: 100px;
    margin-top: -180px; 
    margin-left: 10px;
@@ -128,7 +128,7 @@ div > img.pai {
    box-shadow: 2px 2px 3px black;
 }
 
-div > img.mae {
+section > img.mae {
    width: 100px;
    top: -40px;
    margin-left: 10px;

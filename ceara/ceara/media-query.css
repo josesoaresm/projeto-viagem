@@ -7,7 +7,7 @@
     }
 
     main {
-        background-color: rgba(137, 43, 226, 0.171);
+        background-color: rgba(43, 159, 226, 0.171);
         width: 90vw;
         height: 2000px;
         margin-top: 140px;
@@ -33,7 +33,7 @@
     }
 
     article {  
-        background-color: rgba(255, 0, 0, 0.384);    
+        background-color: rgba(0, 255, 255, 0.384);    
         width: 90vw;
         height: 660px;
         margin-left:0px;
@@ -50,7 +50,7 @@
     }     
 
     section#mae {
-        background-color: rgba(0, 0, 255, 0.514);
+        background-color: rgba(0, 183, 255, 0.514);
         height: 700px;
     }
 
