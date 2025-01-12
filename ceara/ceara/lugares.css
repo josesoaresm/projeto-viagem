@@ -136,11 +136,11 @@ section > img.mae {
    box-shadow: 2px 2px 3px black;
 }
 
-div > img:hover{
+section > img:hover{
    transform: scale(1.5);
 }
 
-div > p {
+section > p {
    width: 300px;
    margin-left: 150px;
   

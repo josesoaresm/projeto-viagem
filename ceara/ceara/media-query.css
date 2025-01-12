@@ -21,10 +21,14 @@
 
     section { 
         background-color: rgba(255, 255, 0, 0.356); 
-        width: 90vw;
+        width: 87vw;
         height: 250px;
-        margin-left:0px;
+        margin-left:20px;
         margin-top: 0px;        
+    }
+    section p {
+        margin-left: 10px;
+       
     }
      
     section > img {
@@ -34,9 +38,9 @@
 
     article {  
         background-color: rgba(0, 255, 255, 0.384);    
-        width: 90vw;
+        width: 87vw;
         height: 760px;
-        margin-left:0px;
+        margin-left: 20px;
         margin-top: 0px; 
         border-top: 1px solid black; 
     }
