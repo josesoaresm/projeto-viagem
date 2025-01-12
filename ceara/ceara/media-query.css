@@ -8,8 +8,8 @@
 
     main {
         background-color: rgba(43, 159, 226, 0.171);
-        width: 95vw;
-        height: 2000px;
+        width: 90vw;
+        height: 2300px;
         margin-top: 140px;
         border-radius: 10px;
     }
@@ -35,7 +35,7 @@
     article {  
         background-color: rgba(0, 255, 255, 0.384);    
         width: 90vw;
-        height: 660px;
+        height: 760px;
         margin-left:0px;
         margin-top: 0px; 
         border-top: 1px solid black; 
@@ -51,7 +51,7 @@
 
     section#mae {
         background-color: rgba(0, 183, 255, 0.514);
-        height: 700px;
+        height: 800px;
     }
 
      footer {
