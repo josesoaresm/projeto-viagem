@@ -67,6 +67,7 @@ menu > ul > li > a img {
 
 main {
     width: 90vw;
+    height: 100vh;
     background-color: white;
     margin: auto;
     margin-top: 10px;
