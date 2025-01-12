@@ -1,0 +1,28 @@
+@charset "UTF-8";
+
+@media screen and (min-width: 768px) {
+   
+    }
+    i#burguer {
+        display: none;      /*Hamburguinho some*/
+    }
+
+    menu {
+        display: block;     /*mostro o menu*/
+    }
+
+    menu > ul > li {
+        display: inline-block;      /*deixar o menu alinhado*/
+        
+    }
+
+    menu > ul > li > a img {
+        height: 40px;
+        border-radius: 10px; 
+    } 
+
+    main {
+        width: 768px;
+    }
+    
+}

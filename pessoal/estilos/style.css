@@ -1,0 +1,95 @@
+@charset "UTF-8";
+
+* {
+    font-family: Arial, Helvetica, sans-serif;
+
+    /*Para retirar as margens*/
+    margin: 0px;
+    padding: 0px;
+}
+
+body, html {
+    background-color: lightgray;
+}
+
+header {
+    background-color: rgb(148, 148, 148);
+}
+
+header > h1 {
+    padding: 10px;
+    text-align: center;
+    color: white;
+}
+
+i#burguer {
+    background-color: rgb(48, 48, 48);
+    color: white;
+    display: block;
+    text-align: center;
+    padding: 10px;
+    cursor: pointer; /*Virar uma maõzinha*/ 
+}
+
+i#burguer:hover {
+    background-color: white;
+    color: black;
+}
+
+menu {
+    display: none;  /*Aqui era display: block, agora e none para esconder o menu*/
+}
+
+menu > ul {
+    list-style: none; /* Retira as bolinas da lista*/
+}
+
+menu > ul > li > a {
+    display: block;
+    padding: 10px;
+    text-decoration: none; /*Retirar as linhas sublinhadas*/
+    text-align: center;
+    background-color: rgb(78, 87, 87);
+    color: white;
+    border-top: 2px solid gray;
+}
+
+menu > ul > li > a:hover {
+    background-color: gray;
+} 
+
+/*da qui*/
+menu > ul > li > a img {
+    height: 20px;
+    border-radius: 10px; 
+}
+/*Até aqui*/
+
+main {
+    width: 90vw;
+    background-color: white;
+    margin: auto;
+    margin-top: 10px;
+    padding: 10px;
+    border-radius: 10px;
+}
+
+article  > h2{
+    padding-bottom: 20px;
+}
+
+article > p {
+    text-align: justify;
+    margin-bottom: 20px;  /*Espaçamento entre os parágrafos*/
+    text-indent: 20px;
+}
+
+div {
+    background-color: yellow;
+}
+
+ div > img {
+    width: 30vw;
+    display: block;
+    margin-left: 350px;
+}
