@@ -84,12 +84,3 @@ article > p {
     text-indent: 20px;
 }
 
-div {
-    background-color: yellow;
-}
-
- div > img {
-    width: 30vw;
-    display: block;
-    margin-left: 350px;
-}

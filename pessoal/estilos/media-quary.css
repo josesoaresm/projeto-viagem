@@ -1,6 +1,6 @@
 @charset "UTF-8";
 
-@media screen and (min-width: 768px) {
+@media screen and (max-width: 768px) {
    
     }
     i#burguer {
@@ -21,8 +21,45 @@
         border-radius: 10px; 
     } 
 
-    main {
-        width: 768px;
+    article {
+        background-color: rgba(0, 0, 255, 0.144);
+        width: 90vw;
+    }
+
+    article p {
+        margin-left: 10px;
+    }
+
+    section {
+        background-color: rgba(165, 42, 42, 0.438);
+        width: 90vw;
+    }
+
+    section img {
+        width: 90vw;      
+    }
+
+    section p {
+        margin-left: 10px;       
+        color: green;
+        width: 60vw;
+    }
+
+    footer {
+        background-color: rgb(148, 148, 148);
+        color: white;
+    }
+
+    footer p {
+        margin-left: 25px;
     }
     
+}
+
+@media screen and (min-width: 768px) and (max-width: 992px) {
+
+    article {
+        background-color: blue;
+    }
+
 }
