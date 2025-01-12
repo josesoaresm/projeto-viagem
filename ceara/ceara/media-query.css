@@ -8,20 +8,20 @@
 
     main {
         background-color: rgba(137, 43, 226, 0.171);
-        width: 80vw;
+        width: 90vw;
         height: 2000px;
         margin-top: 140px;
         border-radius: 10px;
     }
 
     iframe {
-        width: 80vw;
+        width: 90vw;
         margin-top: 10px;
     }
 
     section { 
         background-color: rgba(255, 255, 0, 0.356); 
-        width: 80vw;
+        width: 90vw;
         height: 250px;
         margin-left:0px;
         margin-top: 0px;        
@@ -34,7 +34,7 @@
 
     article {  
         background-color: rgba(255, 0, 0, 0.384);    
-        width: 80vw;
+        width: 90vw;
         height: 660px;
         margin-left:0px;
         margin-top: 0px; 
