@@ -8,7 +8,7 @@
 
     main {
         background-color: blueviolet;
-        width: 600px;
+        width: 90vw;
         height: 2280px;
         margin-top: 140px;
         margin-left: 0px;
@@ -16,33 +16,36 @@
     }
 
     iframe {
-        
+        width: 475px;
+        display: block;
+        margin: auto;        
         margin-top: 10px;
     }
 
     section#leticia {  
-        background-color: rgba(0, 119, 128, 0.192);
-        width: 77vw;
+        background-color: rgba(0, 119, 128, 0.596);
+        width: 90vw;
         height: 250px;
-        margin-left:10px;
+        margin-left:0px;
         margin-top: 0px;        
     }
      
     section#leticia > img {
         width: 100px;
+        margin-left: 10px;
     }
 
     section#leticia > p {
-        width: 75vw;
+        width: 85vw;
         margin-left: 10px;
     }    
 
-    article {      
-        width: 550px;
+    article { 
+        background-color: yellow;     
+        width: 90vw;
         height: 750px;
-        margin-left:10px;
-        margin-top: 10px; 
-        
+        margin-left:0px;
+        margin-top: 10px;         
     }
      
     article > img {        
@@ -51,14 +54,14 @@
     }
      
     article > p {
-        width: 70vw;        
+        width: 85vw;        
     }     
     
     section#mae {
         background-color: rgba(241, 64, 64, 0.644);
-        width: 77vw;
+        width: 90vw;
         height: 900px;           
-        margin-left:10px;
+        margin-left:0px;
         margin-top: 0px;        
     }
 
@@ -67,7 +70,7 @@
     }
 
     section#mae > p{
-        width: 75vw;
+        width: 85vw;
         margin-left: 10px;
     }   
 
