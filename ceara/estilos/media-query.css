@@ -7,10 +7,10 @@
     }
 
     main {
-        background-color: blueviolet;
-        width: 98vw;
+        background-color: white;
+        width: 100vw;
         height: 2280px;
-        margin-top: 140px;
+        margin-top: 128px;
         margin-left: 0px;
         border-radius: 10px;
     }
@@ -23,10 +23,10 @@
     }
 
     section#leticia {  
-        background-color: rgba(0, 119, 128, 0.596);
-        width: 98vw;
+        background-color: rgba(0, 119, 128, 0.178);
+        width: 100vw;
         height: 250px;
-        margin-left:0px;
+        margin-left:10px;
         margin-top: 0px;        
     }
      
@@ -36,41 +36,43 @@
     }
 
     section#leticia > p {
-        width: 97vw;
+        width: 98vw;
         margin-left: 10px;
     }    
 
     article { 
-        background-color: yellow;     
-        width: 98vw;
+        background-color: rgba(255, 255, 0, 0.144);     
+        width: 100vw;
         height: 750px;
-        margin-left:0px;
-        margin-top: 10px;         
+        margin-left:10px;
+        margin-top: 6px;         
     }
      
     article > img {        
         width: 200px;
         border-radius: 10px;
+        margin-left: 10px;
     }
      
     article > p {
-        width: 97vw;        
+        width: 98vw;        
     }     
     
     section#mae {
-        background-color: rgba(241, 64, 64, 0.644);
-        width: 98vw;
-        height: 900px;           
-        margin-left:0px;
+        background-color: rgba(64, 67, 241, 0.205);
+        width: 100vw;
+        height: 919px;           
+        margin-left:10px;
         margin-top: 0px;        
     }
 
     section#mae > img {
         border-radius: 10px;
+        margin-left: 10px;
     }
 
     section#mae > p{
-        width: 97vw;
+        width: 98vw;
         margin-left: 10px;
     }   
 
