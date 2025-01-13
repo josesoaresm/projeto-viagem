@@ -8,7 +8,7 @@
 
     main {
         background-color: blueviolet;
-        width: 90vw;
+        width: 98vw;
         height: 2280px;
         margin-top: 140px;
         margin-left: 0px;
@@ -24,7 +24,7 @@
 
     section#leticia {  
         background-color: rgba(0, 119, 128, 0.596);
-        width: 90vw;
+        width: 98vw;
         height: 250px;
         margin-left:0px;
         margin-top: 0px;        
@@ -36,13 +36,13 @@
     }
 
     section#leticia > p {
-        width: 85vw;
+        width: 97vw;
         margin-left: 10px;
     }    
 
     article { 
         background-color: yellow;     
-        width: 90vw;
+        width: 98vw;
         height: 750px;
         margin-left:0px;
         margin-top: 10px;         
@@ -54,12 +54,12 @@
     }
      
     article > p {
-        width: 85vw;        
+        width: 97vw;        
     }     
     
     section#mae {
         background-color: rgba(241, 64, 64, 0.644);
-        width: 90vw;
+        width: 98vw;
         height: 900px;           
         margin-left:0px;
         margin-top: 0px;        
@@ -70,7 +70,7 @@
     }
 
     section#mae > p{
-        width: 85vw;
+        width: 97vw;
         margin-left: 10px;
     }   
 
@@ -95,6 +95,7 @@
         width: 900px;
         height: 1750px;
         margin-left: 0px;
+        margin-top: 120px;
     }
 
     iframe {
@@ -105,7 +106,7 @@
 
     section#leticia {
         background-color: rgba(255, 255, 0, 0.356);
-        width: 90vw;
+        width: 900px;
         height: 250px;
         margin-left:10px;
         margin-top: 0px;        
@@ -116,14 +117,14 @@
     }
 
     section#leticia > p {
-        width: 90vw;
+        width: 95vw;
         margin-left: 10px;
     }    
     
 
     article {
         background-color: rgba(0, 128, 0, 0.329);
-        width: 90vw;
+        width: 900px;
         height: 500px;
         border-radius: 10px;
         margin-left: 10px;
@@ -131,20 +132,20 @@
     }
      
     article > p {
-        width: 86vw;        
+        width: 95vw;        
     }     
     
 
     section#mae {
         background-color: rgba(0, 0, 255, 0.226);
-        width: 90vw;
+        width: 900px;
         height: 580px;
         margin-left:10px;
         margin-top: 0px;      
     }
 
     section#mae > P {
-        width: 86vw; 
+        width: 95vw; 
         margin-left: 10px;  
     }
 }
