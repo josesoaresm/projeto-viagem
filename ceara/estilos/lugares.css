@@ -72,9 +72,9 @@ main {
    background-color: var(--cor);
    width: 1000px;
    height: 1000px;
-   margin-left: 4px;
+   margin-left: 40px;
    margin-top: 200px;
-   border-right: 1px solid black;
+   
    
 }
 
@@ -86,7 +86,7 @@ iframe {
 
 section {
   
-   width: 500px;
+   width: 400px;
    height: 250px;
    margin-left:596px;
    margin-top: -352px;
@@ -120,12 +120,7 @@ section {
    box-shadow: 3px 3px 3px rgba(0, 0, 0, 0.247);
 }
 
-section > img.pai {
-   width: 100px;
-   margin-top: -180px; 
-   margin-left: 10px;
-   border-radius: 10px;
-   box-shadow: 2px 2px 3px black;
+
 }
 
 section > img.mae {

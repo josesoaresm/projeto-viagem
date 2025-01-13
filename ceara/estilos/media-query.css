@@ -1,0 +1,152 @@
+@charset "UTF-8";
+
+@media screen and (max-width: 768px) {
+    
+    h1 {
+        color: blue;
+    }
+
+    main {
+        background-color: rgba(137, 43, 226, 0.171);
+        width: 600px;
+        height: 2280px;
+        margin-top: 140px;
+        border-radius: 10px;
+    }
+
+    iframe {
+        
+        margin-top: 10px;
+    }
+
+    section#leticia {  
+        background-color: rgba(0, 119, 128, 0.192);
+        width: 77vw;
+        height: 250px;
+        margin-left:10px;
+        margin-top: 0px;        
+    }
+     
+    section#leticia > img {
+        width: 100px;
+    }
+
+    section#leticia > p {
+        width: 75vw;
+        margin-left: 10px;
+    }    
+
+    article {      
+        width: 550px;
+        height: 750px;
+        margin-left:10px;
+        margin-top: 10px; 
+        
+    }
+     
+    article > img {        
+        width: 200px;
+        border-radius: 10px;
+    }
+     
+    article > p {
+        width: 70vw;        
+    }     
+    
+    section#mae {
+        background-color: rgba(241, 64, 64, 0.644);
+        width: 77vw;
+        height: 900px;           
+        margin-left:10px;
+        margin-top: 0px;        
+    }
+
+    section#mae > img {
+        border-radius: 10px;
+    }
+
+    section#mae > p{
+        width: 75vw;
+        margin-left: 10px;
+    }   
+
+     footer {
+        display: block;
+       margin-top: 30px;
+    }
+}
+
+
+
+
+
+
+@media screen and (min-width: 768px) and (max-width: 992px) {
+    h1 {
+        color: rgb(0, 255, 234)
+    }
+
+    main {
+        background-color: rgba(0, 119, 255, 0.479);
+        width: 900px;
+        height: 1750px;
+        margin-left: 0px;
+    }
+
+    iframe {
+        width: 478px;
+      margin-left: 200px;  
+
+    }
+
+    section#leticia {
+        background-color: rgba(255, 255, 0, 0.356);
+        width: 90vw;
+        height: 250px;
+        margin-left:10px;
+        margin-top: 0px;        
+    }
+     
+    section#leticia > img {
+        width: 200px;
+    }
+
+    section#leticia > p {
+        width: 90vw;
+        margin-left: 10px;
+    }    
+    
+
+    article {
+        background-color: rgba(0, 128, 0, 0.329);
+        width: 90vw;
+        height: 500px;
+        border-radius: 10px;
+        margin-left: 10px;
+        margin-top: 5px;
+    }
+     
+    article > p {
+        width: 86vw;        
+    }     
+    
+
+    section#mae {
+        background-color: rgba(0, 0, 255, 0.226);
+        width: 90vw;
+        height: 580px;
+        margin-left:10px;
+        margin-top: 0px;      
+    }
+
+    section#mae > P {
+        width: 86vw; 
+        margin-left: 10px;  
+    }
+}
+
+@media screen and (min-width: 992px) and (max-width: 1200px) {
+    h1 {
+        color: yellow;
+    }
+}
