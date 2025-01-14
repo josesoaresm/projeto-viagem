@@ -32,12 +32,12 @@
      
     section#leticia > img {
         width: 100px;
-        margin-left: 0px;
+        margin-left: 2px;
     }
 
     section#leticia > p {
         width: 98vw;
-        margin-left: 0px;
+        margin-left: 2px;
     }    
 
     article { 
@@ -51,11 +51,12 @@
     article > img {        
         width: 200px;
         border-radius: 10px;
-        margin-left: 0px;
+        margin-left: 2px;
     }
      
     article > p {
-        width: 98vw;        
+        width: 98vw; 
+        margin-left: 2px;       
     }     
     
     section#mae {
@@ -68,12 +69,12 @@
 
     section#mae > img {
         border-radius: 10px;
-        margin-left: 0px;
+        margin-left: 2px;
     }
 
     section#mae > p{
         width: 98vw;
-        margin-left: 0px;
+        margin-left: 2px;
     }   
 
      footer {
