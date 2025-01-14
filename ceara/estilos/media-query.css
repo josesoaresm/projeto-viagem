@@ -26,32 +26,32 @@
         background-color: rgba(0, 119, 128, 0.178);
         width: 100vw;
         height: 250px;
-        margin-left:10px;
+        margin-left:0px;
         margin-top: 0px;        
     }
      
     section#leticia > img {
         width: 100px;
-        margin-left: 10px;
+        margin-left: 0px;
     }
 
     section#leticia > p {
         width: 98vw;
-        margin-left: 10px;
+        margin-left: 0px;
     }    
 
     article { 
         background-color: rgba(255, 255, 0, 0.144);     
         width: 100vw;
         height: 750px;
-        margin-left:10px;
+        margin-left:0px;
         margin-top: 6px;         
     }
      
     article > img {        
         width: 200px;
         border-radius: 10px;
-        margin-left: 10px;
+        margin-left: 0px;
     }
      
     article > p {
@@ -61,19 +61,19 @@
     section#mae {
         background-color: rgba(64, 67, 241, 0.205);
         width: 100vw;
-        height: 919px;           
-        margin-left:10px;
+        height: 930px;           
+        margin-left:0px;
         margin-top: 0px;        
     }
 
     section#mae > img {
         border-radius: 10px;
-        margin-left: 10px;
+        margin-left: 0px;
     }
 
     section#mae > p{
         width: 98vw;
-        margin-left: 10px;
+        margin-left: 0px;
     }   
 
      footer {
