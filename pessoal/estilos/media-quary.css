@@ -1,8 +1,10 @@
 @charset "UTF-8";
 
 @media screen and (max-width: 992px) {
-
-   
+    
+    article {
+        background-color: blue;
+    } 
     
 }
 
@@ -17,7 +19,9 @@
 
 @media screen and (min-width: 992px) and (max-width: 1200px) {
 
-
+    article {
+        background-color: green;
+    }
 }
 
 
@@ -32,5 +36,9 @@
 
 
 @media screen and (min-width: 992px) and (max-width: 1200px) {
+
+    article {
+        background-color: red;
+    }
 
 }
