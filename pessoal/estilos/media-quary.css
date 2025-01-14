@@ -1,6 +1,6 @@
 @charset "UTF-8";
 
-@media screen and (min-width: 768px) and (max-width: 922px) {
+@media screen and (max-width: 768px) {
     
     article {
         background-color: rgba(0, 0, 255, 0.322);
@@ -12,7 +12,7 @@
 
 
 
-@media screen and (min-width: 922px) and (max-width: 1200px)
+@media screen and (min-width: 768px) and (max-width: 992px)
 
     header {
         background-color: rgb(148, 148, 148);
