@@ -1,58 +1,33 @@
 @charset "UTF-8";
 
-@media screen and (max-width: 768px) {
-    
-    article {
-        background-color: rgba(0, 0, 255, 0.322);
-    } 
-    
-}
-
-
-
-
-
-@media screen and (min-width: 768px) and (max-width: 992px)
+@media screen and (min-width: 922px) and (max-width: 1200px){
 
     header {
-        background-color: rgb(148, 148, 148);
+        background-color: rgba(255, 136, 0, 0.479);
     }
 
     header > h1 {
-        padding: 10px;
-        text-align: center;
-        color: white;    
+        color: green;
     }
 
-    menu {
-        display: none;  /*Aqui era display: block, agora e none para esconder o menu*/
+    menu > ul > li > a:hover { 
+        background-color: rgba(255, 136, 0, 0.479);;
     }
-    
-    menu > ul {
-        list-style: none; /* Retira as bolinas da lista*/
-    }
-    
-    menu > ul > li > a {
-        display: block;
-        padding: 10px;
-        text-decoration: none; /*Retirar as linhas sublinhadas*/
-        text-align: center;
-        background-color: rgb(78, 87, 87);
-        color: white;
-        border-top: 2px solid gray;
-    }
-    
-    menu > ul > li > a:hover {
-        background-color: gray;
-    } 
 
-    menu > ul > li > a img {
-        height: 20px;
-        border-radius: 10px; 
-    }   
+   
 
     article {
-        background-color: rgba(0, 89, 255, 0.171);
+        background-color: rgba(255, 136, 0, 0.479);
     }
 
 }
+
+
+
+@media screen and (min-width: 1200px) {
+
+    article {
+        background-color: green;
+    }
+}
+

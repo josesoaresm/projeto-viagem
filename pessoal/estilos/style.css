@@ -38,6 +38,7 @@ i#burguer:hover {
 
 menu {
     display: none;  /*Aqui era display: block, agora e none para esconder o menu*/
+    width: 200px;
 }
 
 menu > ul {
@@ -76,11 +77,12 @@ main {
 }
 
 article {
-    background-color: rgba(0, 0, 255, 0.144);
+    background-color: rgba(0, 247, 255, 0.144);
     width: 90vw;
 }
 
 article  > h2{
+    text-align: center;
     padding-bottom: 20px;
 }
 
@@ -91,20 +93,26 @@ article > p {
     text-indent: 20px;
 }
 
-section {
-    background-color: rgba(165, 42, 42, 0.438);
-    width: 90vw;
+div.img {
+   display: flex;
 }
 
-section img {
-    width: 90vw;      
+div.foto {
+    padding: 10px;
+    text-align: center;
+    flex: auto;
 }
 
-section p {
-    margin-left: 10px;       
-    color: green;
-    width: 60vw;
+div.foto img {
+    background-color: aqua;
+    width: 250px;
+} 
+
+div.foto p {
+    color: blue;
 }
+
+
 
 footer {
     background-color: rgb(148, 148, 148);
