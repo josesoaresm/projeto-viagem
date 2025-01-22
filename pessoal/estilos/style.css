@@ -38,11 +38,12 @@ i#burguer:hover {
 
 menu {
     display: none;  /*Aqui era display: block, agora e none para esconder o menu*/
-    width: 200px;
+
 }
 
 menu > ul {
     list-style: none; /* Retira as bolinas da lista*/
+    width: 100px;
 }
 
 menu > ul > li > a {
@@ -68,60 +69,38 @@ menu > ul > li > a img {
 
 main {
     width: 90vw;
-    height: 100%;
     background-color: white;
     margin: auto;
-    margin-top: 0px;
+    margin-top: 10px;
     padding: 10px;
     border-radius: 10px;
 }
 
-article {
-    background-color: rgba(0, 247, 255, 0.144);
-    width: 90vw;
-}
-
 article  > h2{
-    text-align: center;
     padding-bottom: 20px;
 }
 
 article > p {
     text-align: justify;
     margin-bottom: 20px;  /*Espaçamento entre os parágrafos*/
-    margin-left: 0px;
     text-indent: 20px;
 }
 
 div.img {
-   display: flex;
-   flex-flow: wrap-reverse;
-
-}
-
-div.foto {
-    padding: 10px;
-    text-align: center;
-    flex: auto;
+    border: 1px solid rgba(0, 0, 255, 0.055); 
+    box-shadow: 0px 0px 3px;   
+    display: flex;
+    flex-flow: row-reverse;
+    justify-content: space-between;
+      
 }
 
 div.foto img {
-    background-color: aqua;
-    width: 250px;
-} 
+    width: 100px; 
+}
 
-div.foto p {
+div.img p {
+    font-size: 0.5em;
     color: blue;
-}
-
-
-
-footer {
-    background-color: rgb(148, 148, 148);
-    color: white;
-}
-
-footer p {
-    margin-left: 25px;
-}
-
+    text-align: center;
+ }

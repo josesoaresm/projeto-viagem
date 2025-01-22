@@ -130,7 +130,7 @@ main {
 }
 
 section#img {
-    background-image: url('../imagens/na-estrada.jpg');
+    background-image: url('../imagens/paraty-p.jpg');
     background-repeat: no-repeat;
     background-position: right center;
     background-size: cover;
@@ -149,7 +149,7 @@ p#img {
 }
 
 section#img2 {
-    background-image: url('../imagens/estrada.jpg');
+    background-image: url('../imagens/estrada-p.jpg');
     background-repeat: no-repeat;
     background-position: right center;
     background-size: cover;
@@ -168,7 +168,7 @@ p#img2 {
 }
 
 section.lago {
-    background-image: url(../imagens/capt.jpg);
+    background-image: url(../imagens/capt-p.jpg);
     background-repeat: no-repeat;
     background-position: right center;
     background-size: cover;

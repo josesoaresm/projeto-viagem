@@ -1,6 +1,6 @@
 @charset "UTF-8";
 
-@media screen and (min-width: 768px) and (max-width: 922px){
+@media screen and (min-width: 922px) and (max-width: 1200px) {
 
     header {
         background-color: rgba(255, 136, 0, 0.479);
@@ -20,7 +20,13 @@
         background-color: rgba(255, 136, 0, 0.479);
     }
 
+    div.foto img {
+        width: 250px;  
+    }
+
 }
+
+
 
 
 
@@ -28,6 +34,10 @@
 
     article {
         background-color: green;
+    }
+
+    div.foto img {
+        width: 350px;  
     }
 }
 
