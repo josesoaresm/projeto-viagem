@@ -1,0 +1,83 @@
+@charset "UTF-8";
+
+@media screen and (max-width: 768px) {
+    
+    h1 {
+        color: blue;
+    }
+
+    main {
+        background-color: rgba(43, 159, 226, 0.171);
+        width: 100vw;
+        height: 1800px;
+        margin-top: 140px;
+        border-radius: 10px;
+    }
+
+    iframe {
+        width: 100vw;
+        margin-top: 10px;
+    }
+
+    section { 
+        background-color: rgba(251, 255, 0, 0.164); 
+        width: 95vw;
+        height: 250px;
+        margin-left:20px;
+        margin-top: 0px;        
+    }
+    section p {
+        width: 93vw;
+        margin-left: 10px;
+        margin-right: 10px;       
+    }
+     
+    section > img {
+        width: 200px;        
+    }
+
+    article {  
+        background-color: rgba(0, 255, 255, 0.048);    
+        width: 95vw;
+        height: 660px;
+        margin-left: 20px;
+        margin-top: 0px; 
+       
+    }
+     
+    article > img {        
+        width: 200px;
+    }
+     
+    article > p {
+        width: 93vw;        
+    }     
+
+    section#mae {
+        background-color: rgba(0, 255, 255, 0.048);
+        height: 500px;
+        margin-right: 10px;
+    }
+
+     footer {
+        display: block;
+       margin-top: 10px;
+    }
+}
+
+
+
+
+
+
+@media screen and (min-width: 768px) and (max-width: 992px) {
+    h1 {
+        color: rgb(0, 255, 234)
+    }
+}
+
+@media screen and (min-width: 992px) and (max-width: 1200px) {
+    h1 {
+        color: yellow;
+    }
+}
