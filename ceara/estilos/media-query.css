@@ -6,46 +6,47 @@
         color: blue;
     }
 
+   
     main {
-        background-color: white;
+       
         width: 100vw;
-        height: 2280px;
+        height: 1850px;
         margin-top: 128px;
         margin-left: 0px;
         border-radius: 10px;
     }
 
     iframe {
-        width: 550px;
+        width: 620px;
         display: block;
         margin: auto;        
         margin-top: 10px;
     }
 
-    section#leticia {  
-        background-color: rgba(0, 119, 128, 0.178);
+    section {  
+        background-color: rgba(240, 177, 177, 0.151);
         width: 100vw;
         height: 250px;
-        margin-left:0px;
-        margin-top: 0px;        
+        margin-top: 10px;
+        margin-left: 0px;     
     }
      
-    section#leticia > img {
+    section > img {
         width: 100px;
         margin-left: 2px;
     }
 
-    section#leticia > p {
+    section > p {
         width: 98vw;
         margin-left: 2px;
     }    
 
     article { 
-        background-color: rgba(255, 255, 0, 0.144);     
+         
         width: 100vw;
-        height: 750px;
+        height: 450px;
         margin-left:0px;
-        margin-top: 6px;         
+        margin-top: 10px;         
     }
      
     article > img {        
@@ -60,14 +61,15 @@
     }     
     
     section#mae {
-        background-color: rgba(64, 67, 241, 0.205);
+        background-color: rgba(4, 5, 26, 0.082);
         width: 100vw;
-        height: 930px;           
+        height: 600px;           
         margin-left:0px;
         margin-top: 0px;        
     }
 
     section#mae > img {
+        width: 100px;
         border-radius: 10px;
         margin-left: 2px;
     }
