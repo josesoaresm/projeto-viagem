@@ -63,75 +63,94 @@ nav > a abbr img:hover {
 h1 {
    font-family: var(--fonte-padrao);   
     font-size: 3em;
-    color: var(--cor3);
+    color: red
     text-shadow: 2px 2px 5px rgba(0, 0, 0, 0.247); 
     margin-top: 15px;
 }
 
 main {
    background-color: var(--cor);
-   width: 400px;
+   width: 100vw;
    height: 100%;
    margin-left: 0px;
-   margin-top: 200px;   
+   margin-top: 128px;
+   border-radius: 10px;   
 }
 
 iframe {
    width: 620px;
-   height: 350px;
-   padding: 20px;
-   box-shadow: 0px 0px 5px rgba(0, 0, 0, 0.233);
+   display: block;
+   margin: auto;
+   margin-top: 10px;
 }
 
-section {  
-    background-color: #997708;
-   width: 400px;
-   height: 350px;
-   margin-left:596px;
-   margin-top: -550px;
-   box-shadow: 3px 3px 3px rgba(0, 0, 0, 0.247);
+section.leticia {  
+    background-color: rgba(240, 177, 177, 0.144);
+    width: 100vw;
+    height: 300px;
+    margin-top: 10px;
+    margin-left: 0px;     
+}
+ 
+section.leticia > img {
+    width: 200px;
+    margin-left: 2px;
+    border-radius: 10px;
 }
 
-section > img.mae {
-   width: 100px;
-   top: -40px;
-   margin-left: 10px;
-   border-radius: 10px;
-   box-shadow: 2px 2px 3px black;
+section.leticia > p {
+    width: 98vw;
+    margin-left: 5px;
+} 
+
+section.mae {
+    background-color: rgba(240, 177, 177, 0.144);
+    width: 100vw;
+    height: 300px;
+    margin-top: 10px;
+    margin-left: 0px;
 }
+
+section.mae > img {
+    width: 100px;
+    margin-left: 2px;
+    border-radius: 10px;
+}
+
+section.mae > p {
+    width: 98vw;
+    margin-left: 5px;
+}
+
 
 section > img:hover{
    transform: scale(1.5);
 }
 
-section > p {
-   width: 300px;
-   margin-left: 150px;  
+article {  
+    background-color: rgba(4, 5, 26, 0.082);        
+    width: 100vw;
+    height: 650px;
+    margin-left:0px;
+    margin-top: 510px;         
 }
-
-article {   
-   font-family: var(--fonte-padrao);
-   width: 400px;
-   height: 950px;
-   margin-left:596px;
-   margin-top: -10px;   
+ 
+article> img {        
+    width: 200px;
+    border-radius: 10px;
+    margin-left: 2px;
 }
-
-article > img {
-   width: 200px;
-}
-
-article > p {
-   margin-left: 10px;
+ 
+article> p {
+    width: 98vw; 
+    margin-left: 5px;       
 }
   
 footer {
-    background-image: linear-gradient(to left, var(--cor4), var(--cor2));
-    font-family: var(--fonte-destaque);     
+    display: block;
+   margin-top: 30px;
 }
 
 footer > p {
-    margin-left: 20px;
-    font-family: var(--fonte-padrao); 
-    color: rgb(196, 165, 165);  
+    font-size: 0.6em;
 }
