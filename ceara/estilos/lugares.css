@@ -79,6 +79,7 @@ main {
 
 iframe {
    width: 620px;
+   height: 350px;
    display: block;
    margin: auto;
    margin-top: 10px;
@@ -130,9 +131,9 @@ section > img:hover{
 article {  
     background-color: rgba(4, 5, 26, 0.082);        
     width: 100vw;
-    height: 650px;
+    height: 550px;
     margin-left:0px;
-    margin-top: 510px;         
+    margin-top: 650px;         
 }
  
 article> img {        
@@ -147,10 +148,15 @@ article> p {
 }
   
 footer {
+    background-image: linear-gradient(to left, var(--cor4), var(--cor2));
+    font-family: var(--fonte-destaque);
     display: block;
    margin-top: 30px;
 }
 
 footer > p {
     font-size: 0.6em;
+    margin-left: 20px;
+    font-family: var(--fonte-padrao); 
+    color: rgb(196, 165, 165); 
 }
