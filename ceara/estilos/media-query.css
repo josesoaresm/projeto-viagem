@@ -14,7 +14,7 @@
     main {
         background-color: var(--cor);       
         width: 100vw;
-        height: 2350px;
+        height: 100%;
         margin-top: 128px;
         margin-left: 0px;
         border-radius: 10px;
