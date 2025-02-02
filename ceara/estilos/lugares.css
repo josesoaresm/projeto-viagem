@@ -107,7 +107,7 @@ section.mae {
     background-color: rgba(240, 177, 177, 0.144);
     width: 100vw;
     height: 300px;
-    margin-top: 10px;
+    margin-top: 20px;
     margin-left: 0px;
 }
 
@@ -132,7 +132,7 @@ article {
     width: 100vw;
     height: 550px;
     margin-left:0px;
-    margin-top: 650px;         
+    margin-top: 680px;         
 }
  
 article> img {        
