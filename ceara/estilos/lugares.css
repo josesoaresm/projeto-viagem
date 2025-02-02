@@ -74,7 +74,7 @@ h2 {
 
 main {
    background-color: #42d80715;
-   width: 400px;
+   width: 410px;
    height: 2100px;
    margin-left: 0px;
    margin-top: 128px;
@@ -95,7 +95,7 @@ div.iframe > img {
 }
 
 article {  
-    width: 480px;
+    width: 400px;
     height: 685px;
     margin-left:0px;
     margin-top: 10px;
@@ -109,12 +109,12 @@ article> img {
 }
  
 article> p {
-    width: 470px;
+    width: 400px;
     margin-left: 5px;       
 }
 
 article.leticia {  
-    width: 480px;
+    width: 400px;
     height: 270px;
     margin-top: 10px;
     margin-left: 0px;
@@ -133,7 +133,7 @@ article.leticia > p {
 } 
 
 article.mae {
-    width: 480px;
+    width: 400px;
     height: 670px;
     margin-top: 0px;
     margin-left: 0px;
@@ -146,7 +146,7 @@ article.mae > img {
 }
 
 article.mae > p {
-    width: 470px;
+    width: 400px;
     margin-left: 5px;
 }
 
