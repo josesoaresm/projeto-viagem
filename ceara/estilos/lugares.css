@@ -68,6 +68,10 @@ h1 {
     margin-top: 15px;
 }
 
+h2 {
+    text-align: center;
+}
+
 main {
    background-color: #42d80715;
    width: 400px;
@@ -105,7 +109,7 @@ article> img {
 }
  
 article> p {
-    max-width: 470px;
+    width: 470px;
     margin-left: 5px;       
 }
 
@@ -124,7 +128,7 @@ article.leticia > img {
 }
 
 article.leticia > p {
-    max-width: 470px;
+    width: 470px;
     margin-left: 5px;
 } 
 
@@ -142,7 +146,7 @@ article.mae > img {
 }
 
 article.mae > p {
-    max-width: 470px;
+    width: 470px;
     margin-left: 5px;
 }
 
