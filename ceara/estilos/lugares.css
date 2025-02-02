@@ -70,15 +70,15 @@ h1 {
 
 main {
    background-color: #42d80715;
-   width: 768px;
-   height: 1990px;
+   width: 480px;
+   height: 2100px;
    margin-left: 10px;
    margin-top: 128px;
    border-radius: 10px;   
 }
 
 iframe {
-    width: 745px;
+    width: 450px;
     height: 420px;
     margin-left: 10px;        
     margin-top: 10px; 
@@ -91,8 +91,8 @@ div.iframe > img {
 }
 
 article {  
-    width: 768px;
-    height: 650px;
+    width: 480px;
+    height: 675px;
     margin-left:0px;
     margin-top: 10px;
          
@@ -105,13 +105,12 @@ article> img {
 }
  
 article> p {
-    max-width: 750px;
-    width: 98vw; 
+    max-width: 470px;
     margin-left: 5px;       
 }
 
 article.leticia {  
-    width: 768px;
+    width: 480px;
     height: 270px;
     margin-top: 10px;
     margin-left: 0px;
@@ -125,14 +124,13 @@ article.leticia > img {
 }
 
 article.leticia > p {
-    max-width: 750px;
-    max-width: 750px;
+    max-width: 470px;
     margin-left: 5px;
 } 
 
 article.mae {
-    width: 768px;
-    height: 640px;
+    width: 480px;
+    height: 670px;
     margin-top: 0px;
     margin-left: 0px;
 }
@@ -144,7 +142,7 @@ article.mae > img {
 }
 
 article.mae > p {
-    max-width: 750px;
+    max-width: 470px;
     margin-left: 5px;
 }
 
