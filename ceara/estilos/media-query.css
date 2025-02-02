@@ -35,9 +35,10 @@
     section.leticia {  
         background-color: rgba(240, 177, 177, 0.144);
         width: 100vw;
-        height: 300px;
+        height: 320px;
         margin-top: 10px;
-        margin-left: 0px;     
+        margin-left: 0px;  
+        /*border: 1px dotted black;*/   
     }
      
     section.leticia > img {
@@ -54,9 +55,10 @@
     section.mae {
         background-color: rgba(240, 177, 177, 0.144);
         width: 100vw;
-        height: 300px;
-        margin-top: 20px;
+        height: 900px;
+        margin-top: 0px;
         margin-left: 0px;
+        /*border: 1px dotted black;*/
     }
 
     section.mae > img {
@@ -71,11 +73,12 @@
     }
 
     article {  
-        background-color: rgba(4, 5, 26, 0.082);        
+        background-color: rgba(240, 177, 177, 0.144);        
         width: 100vw;
         height: 650px;
         margin-left:0px;
-        margin-top: 680px;         
+        margin-top: 0px;  
+        /*border: 1px dotted black;*/       
     }
      
     article> img {        
