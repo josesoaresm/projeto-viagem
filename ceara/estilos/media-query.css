@@ -11,9 +11,10 @@
         text-align: center;
     }
    
-    main {       
+    main {
+        background-color: var(--cor);       
         width: 100vw;
-        height: 2250px;
+        height: 2350px;
         margin-top: 128px;
         margin-left: 0px;
         border-radius: 10px;
@@ -22,7 +23,7 @@
     iframe {
         width: 620px;
         display: block;
-        margin: auto;        
+        margin-left: 10px;        
         margin-top: 10px;
     }
 
@@ -74,7 +75,7 @@
         width: 100vw;
         height: 650px;
         margin-left:0px;
-        margin-top: 610px;         
+        margin-top: 710px;         
     }
      
     article> img {        
