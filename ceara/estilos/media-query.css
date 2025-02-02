@@ -20,17 +20,7 @@
         border-radius: 10px;
     }
 
-    iframe {
-        width: 620px;
-        display: block;
-        margin-left: 10px;        
-        margin-top: 10px;
-    }
-
-    div.iframe > img {
-        width: 200px;
-        display: none;
-    }
+  
 
     section.leticia {  
         background-color: rgba(240, 177, 177, 0.144);
