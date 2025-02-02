@@ -75,7 +75,7 @@ h2 {
 main {
    background-color: #42d80715;
    width: 375px;
-   height: 2290px;
+   height: 2350px;
    margin-left: 0px;
    margin-top: 128px;
    border-radius: 10px;   
@@ -115,7 +115,7 @@ article> p {
 
 article.leticia {  
     width: 375px;
-    height: 290px;
+    height: 310px;
     margin-top: 10px;
     margin-left: 0px;
   
@@ -134,7 +134,7 @@ article.leticia > p {
 
 article.mae {
     width: 375px;
-    height: 730px;
+    height: 800px;
     margin-top: 0px;
     margin-left: 0px;
 }
