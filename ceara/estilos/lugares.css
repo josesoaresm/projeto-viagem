@@ -74,7 +74,7 @@ h2 {
 
 main {
    background-color: #42d80715;
-   width: 385px;
+   width: 375px;
    height: 2230px;
    margin-left: 0px;
    margin-top: 128px;
@@ -82,7 +82,7 @@ main {
 }
 
 iframe {
-    width: 385px;
+    width: 375px;
     height: 420px;
     margin-left: 10px;        
     margin-top: 10px; 
@@ -95,7 +95,7 @@ div.iframe > img {
 }
 
 article {  
-    width: 385px;
+    width: 375px;
     height: 760px;
     margin-left:0px;
     margin-top: 10px;
@@ -109,12 +109,12 @@ article> img {
 }
  
 article> p {
-    width: 380px;
+    width: 370px;
     margin-left: 5px;       
 }
 
 article.leticia {  
-    width: 385px;
+    width: 375px;
     height: 290px;
     margin-top: 10px;
     margin-left: 0px;
@@ -128,12 +128,12 @@ article.leticia > img {
 }
 
 article.leticia > p {
-    width: 380px;
+    width: 370px;
     margin-left: 5px;
 } 
 
 article.mae {
-    width: 385px;
+    width: 375px;
     height: 730px;
     margin-top: 0px;
     margin-left: 0px;
@@ -146,7 +146,7 @@ article.mae > img {
 }
 
 article.mae > p {
-    width: 380px;
+    width: 370px;
     margin-left: 5px;
 }
 
