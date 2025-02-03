@@ -1,6 +1,6 @@
 @charset "UTF-8";
 
-@media screen and (min-width: 768px) and (max-width: 992px) {    
+@media screen and (min-width: 992px) and (max-width: 1200px) {    
     
     h1 {
         color: blue;
@@ -13,7 +13,7 @@
    
     main {
         background-color: #42d80715;
-        width: 375px;
+        width: 650px;
         height: 2400px;
         margin-left: 0px;
         margin-top: 128px;
@@ -34,7 +34,7 @@
      }
      
      article {  
-         width: 375px;
+         width: 650px;
          height: 830px;
          margin-left:0px;
          margin-top: 10px;
@@ -48,12 +48,12 @@
      }
       
      article> p {
-         width: 370px;
+         width: 645px;
          margin-left: 5px;       
      }
      
      article.leticia {  
-         width: 375px;
+         width: 650px;
          height: 310px;
          margin-top: 10px;
          margin-left: 0px;
@@ -67,12 +67,12 @@
      }
      
      article.leticia > p {
-         width: 370px;
+         width: 645px;
          margin-left: 5px;
      } 
      
      article.mae {
-         width: 375px;
+         width: 650px;
          height: 800px;
          margin-top: 0px;
          margin-left: 0px;
@@ -85,27 +85,14 @@
      }
      
      article.mae > p {
-         width: 370px;
+         width: 645px;
          margin-left: 5px;
      }
      
      article > img:hover{
         transform: scale(1.5);
      }    
-       
-     footer {
-         background-image: linear-gradient(to left, var(--cor4), var(--cor2));
-         font-family: var(--fonte-destaque);
-         display: block;
-        margin-top: 30px;
-     }
      
-     footer > p {
-         font-size: 0.8em;
-         margin-left: 20px;
-         font-family: var(--fonte-padrao); 
-         color: rgb(196, 165, 165); 
-     }
 }
 
 
@@ -113,9 +100,9 @@
 
 
 
-@media screen and (min-width: 992px) and (max-width: 1200px) {
+@media screen and (min-width: 1200px) {
     h1 {
-        color: yellow;
+        color: rgba(255, 255, 0, 0.514);
     }
 
     h2 {
@@ -123,117 +110,94 @@
         text-align: center;
     }
    
-    main {       
-        width: 100vw;
-        height: 2070px;
+    main {
+        background-color: rgba(255, 255, 0, 0.226);
+        width: 97vw;
+        height: 1150px;
+        margin-left: 10px;
+        margin-right: 0px;
         margin-top: 128px;
-        margin-left: 0px;
-        border-radius: 10px;
-    }
-
-    div.iframe {
-        background-color: lightgrey;
-        display: flex;
-        flex-flow: row wrap;               
-        margin-top: 10px;
-    }
-
-    iframe {
-        flex: 0 1 370px;
-    }
-
-    div.iframe > img {
-        width: 320px;
-        height: 250px;
-        margin-top: 65px;
-    }
-
-    section.leticia {  
-        background-color: rgba(240, 177, 177, 0.144);
-        width: 100vw;
-        height: 300px;
-        margin-top: 10px;
-        margin-left: 0px;     
-    }
+        border-radius: 10px;   
+     }
      
-    section.leticia > img {
-        width: 300px;
-        margin-left: 2px;
-        border-radius: 10px;
-    }
-
-    section.leticia > p {
-        width: 98vw;
-        margin-left: 5px;
-    }  
+     iframe {
+         width: 375px;
+         height: 420px;
+         margin-left: 10px;        
+         margin-top: 10px; 
+         /*border: 1px dotted black;*/  
+     }
+     
+     div.iframe > img {
+         width: 360px;
+         display: none; 
+     }
+     
+     article {  
+         width: 930px;
+         height: 620px;
+         margin-left:390px;
+         margin-top: -420px;
+         /*border: 1px dotted black;*/              
+     }
+      
+     article> img {        
+         width: 400px;
+         border-radius: 10px;
+         margin-left: 0px;
+     }
+      
+     article> p {
+         width: 68vw;
+         margin-left: 5px;       
+     }
+     
+     article.leticia {  
+         width: 97vw;
+         height: 230px;
+         margin-top: 10px;
+         margin-left: 0px;
+         /*border: 1px dotted black;*/
+       
+     }
+      
+     article.leticia > img {
+         width: 400px;
+         margin-left: 0px;
+         border-radius: 10px;
+     }
+     
+     article.leticia > p {
+         width: 900px;
+         margin-left: 410px;
+         margin-top: -225px;
+     } 
+     
+     article.mae {
+         width: 97vw;
+         height: 300px;
+         margin-top: 0px;25
+         margin-left: 0px;
+         /*border: 1px dotted black;*/
+     }
+     
+     article.mae > img {
+         width: 100px;
+         margin-left: 0px;
+         border-radius: 10px;
+     }
+     
+     article.mae > p {
+         width: 79vw;
+         margin-left: 210px;
+         margin-top: -145px;
+         margin-bottom: 145px;
+     }
+     
+     article > img:hover{
+        transform: scale(1.5s);
+     } 
+     
     
-    section.mae {
-        background-color: rgba(236, 36, 36, 0.144);
-        width: 100vw;
-        height: 760px;
-        margin-top: 10px;
-        margin-left: 0px;
-    }
-
-    section.mae > img {
-        width: 150px;
-        margin-left: 2px;
-        border-radius: 10px;
-    }
-
-    section.mae > p {
-        width: 98vw;
-        margin-left: 5px;
-    }
-
-    article {  
-        background-color: rgba(4, 5, 26, 0.082);        
-        width: 100vw;
-        height: 550px;
-        margin-left:0px;
-        margin-top: 10px;         
-    }
-     
-    article> img {        
-        width: 300px;
-        border-radius: 10px;
-        margin-left: 2px;
-    }
-     
-    article> p {
-        width: 98vw; 
-        margin-left: 5px;       
-    }     
-
-     footer {
-        display: block;
-       margin-top: 30px;
-    }
-
-    footer > p {
-        font-size: 0.8em;
-    }
 }
 
-@media screen and (min-width: 1200px) {
-    h1 {
-        color: red;
-    }
-
-    div.iframe {
-        background-color: lightgrey;
-        display: flex;
-        flex-flow: row wrap;               
-        margin-top: 10px;
-    }
-
-    iframe {
-        flex: 0 1 370px;
-    }
-
-    div.iframe > img {
-        width: 320px;
-        height: 250px;
-        margin-top: 65px;
-    }
-}
