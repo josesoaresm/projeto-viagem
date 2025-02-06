@@ -74,6 +74,13 @@ h2 {
     color: #005dbb;
 }
 
+h3 {
+    font-size: 1em;
+    text-align: left;
+    color: #005dbb;
+    border-top: 1px solid rgba(0, 0, 255, 0.281);
+}
+
 main {
     background-color: #0073e617;
     max-width: 768px;
