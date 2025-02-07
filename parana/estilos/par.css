@@ -30,23 +30,24 @@ body {
 }
 
 header {     
-    background-image: linear-gradient(to left, var(--cor4), var(--cor2));    
-    top: 0px;    
+    background-image: linear-gradient(to left, var(--cor4), var(--cor2));     
     font-family: var(--fonte-padrao);       
     padding: 5px;
     text-align: center;  
-    width: 100vw      
+    width: 100vw;
+    position: fixed; 
+    margin-top: 0px;   
 }
 
-nav { 
-    background-image: linear-gradient(to left, var(--cor4), var(--cor2));     
-    top: 90px;
+nav {     
+    margin-top: 10px;
     padding: 05px; 
-    width: 100vw            
+    width: 100vw;
+    position: fixed;            
 }
 
 nav > a > abbr img {
-    width: 40px;
+    width: 30px;
     border-radius: 50%;
     box-sizing: border-box;    
 }
@@ -59,7 +60,7 @@ nav > a abbr img:hover {
 
 h1 {
    font-family: var(--fonte-padrao);   
-    font-size: 3em;
+    font-size: 2em;
     color: var(--cor3);
     text-shadow: 2px 2px 5px rgba(0, 0, 0, 0.397); 
     margin-top: 15px;
@@ -77,8 +78,8 @@ main {
     margin: auto;
     border-radius: 10px;
     margin-left: 0px;
-    margin-top: 2px;
-    padding-top: 100px;   
+    margin-top: 0px;
+    padding-top: 115px;   
 }
 
 p {
@@ -88,7 +89,7 @@ p {
 section.amapora {
     background-color: var(--cor4);
     color: var(--cor3);
-    margin-top: -100px;
+    margin-top: -90px;
     border-radius: 10px 10px;   
 }
 
@@ -103,7 +104,8 @@ section.curitiba {
 }
 
 img {
-    width: 300px;
+    width: 400px;
+    margin: auto;
 }
 
 img.amapora {
@@ -122,7 +124,7 @@ img.iguaçu {
 
 img.curitiba {
     width: 100%;
-    max-width: 350;
+    max-width: ;
     display: block;
     margin: auto;
 }
@@ -146,7 +148,8 @@ div.video > iframe {
 footer {
     background-image: linear-gradient(to left, var(--cor4), var(--cor2));
     font-family: var(--fonte-destaque); 
-    text-align: left 50px; 
+    font-size: 0.8em;
+    text-align: center; 
     color: var(--cor3);  
 }
 
