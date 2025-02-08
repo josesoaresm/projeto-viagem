@@ -76,7 +76,7 @@ h2 {
 h3 {
     color: #0073E6;
     font-size: 0.6em;
-    text-align: left, 10px;
+   text-align: center;
     margin: auto;    
 }
 
@@ -112,15 +112,19 @@ article {
     background-image: linear-gradient(to left, #99770886, #c4a5a556);
     width: 100%;   
     margin-left: 0px;
-    margin-top: 10px; 
-    text-align: center;   
+    margin-top: 10px;     
 }
 
 article > img {
     min-width: 280px;
-    max-width: 768px;
+    max-width: 380px;
     margin-top: 10px;
-    box-shadow: 0px 0px 7px black;    
+    box-shadow: 0px 0px 7px black;
+    text-align: center;    
+}
+ 
+article > p {
+    margin-left: 10px;
 }
 
 section.icomprida {
