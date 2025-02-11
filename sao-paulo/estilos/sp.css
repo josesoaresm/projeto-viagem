@@ -116,7 +116,7 @@ div.foto {
 }
 
 div.arnaldo img {
-    width: 200px;
+    width: 150px;
     padding: 10px;
     margin-left: 20px;
     margin-top: 10px;
@@ -124,7 +124,7 @@ div.arnaldo img {
 }
 
 div.tiao img {
-    width: 200px;
+    width: 150px;
     padding: 10px;
     margin-left: 20px;
     margin-top: 10px;
@@ -132,12 +132,14 @@ div.tiao img {
 }
 
 div.isabel img {
-    width: 200px;
+    width: 150px;
     padding: 10px;
     margin-left: 20px;
     margin-top: 10px;
     box-shadow: 0px 0px 7px black;
 }
+
+
 
 article {
     background-image: linear-gradient(to left, #99770886, #c4a5a556);
