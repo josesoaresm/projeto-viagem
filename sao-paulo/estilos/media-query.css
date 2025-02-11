@@ -12,6 +12,37 @@
         margin-top: 45px;   
     }
 
+    div.foto {
+        background-color: #0073e615;
+        max-width: 768px;
+        display: flex;
+        flex-flow: row wrap;
+    }
+    
+    div.arnaldo img {
+        width: 200px;
+        padding: 10px;
+        margin-left: 20px;
+        margin-top: 10px;
+        box-shadow: 0px 0px 7px black;    
+    }
+    
+    div.tiao img {
+        width: 200px;
+        padding: 10px;
+        margin-left: 20px;
+        margin-top: 10px;
+        box-shadow: 0px 0px 7px black; 
+    }
+    
+    div.isabel img {
+        width: 200px;
+        padding: 10px;
+        margin-left: 20px;
+        margin-top: 10px;
+        box-shadow: 0px 0px 7px black;
+    }
+
     article > img {
         min-width: 284px;
         max-width: 684px;
