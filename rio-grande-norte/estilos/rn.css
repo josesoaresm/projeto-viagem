@@ -163,4 +163,5 @@ footer {
     font-family: var(--fonte-destaque); 
     text-align: center; 
     color: white;
+    padding: 10px;
 }
