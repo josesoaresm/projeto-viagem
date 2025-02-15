@@ -61,7 +61,7 @@ nav > a abbr img:hover {
 
 h1 {
    font-family: var(--fonte-padrao);   
-    font-size: 2em;
+    font-size: 1.2em;
     color: var(--cor3);
     text-shadow: 2px 2px 5px rgba(0, 0, 0, 0.247); 
     margin-top: 15px;
@@ -92,7 +92,7 @@ main {
      
     max-width: 768px;
     height: 100%;    
-    margin-top: 70px;   
+    margin-top: 58px;   
 }
 
 div.faixa {
