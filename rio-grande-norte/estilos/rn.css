@@ -154,4 +154,5 @@ footer {
     background-image: linear-gradient(to left, var(--cor4), var(--cor2));
     font-family: var(--fonte-destaque); 
     text-align: center; 
+    color: white;
 }
