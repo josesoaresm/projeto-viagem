@@ -26,8 +26,7 @@
 }
 
 body {
-     font-family: Arial, Helvetica, sans-serif;
-     
+     font-family: Arial, Helvetica, sans-serif;     
 }
 
 header {     
@@ -88,8 +87,7 @@ p {
     margin-top: 10px;
 }
 
-main {
-     
+main {     
     max-width: 768px;
     height: 100%;    
     margin-top: 50px;   
@@ -154,9 +152,6 @@ div.dunas img {
     box-shadow: 0px 0px 7px black;
     text-align: center; 
 }
-
-
-
 
 footer {
     background-image: linear-gradient(to left, var(--cor4), var(--cor2));
