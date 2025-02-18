@@ -99,6 +99,21 @@ div.faixa img {
     margin: 0px;
 }
 
+section.capitolio {
+    min-width: 280px;
+    max-width: 768px;
+    display: flex;
+    flex-flow: row wrap;
+    justify-content: center; /* para alinhar o item no centro*/
+}
+
+section img {
+    width: 160px;
+    margin: 10px;
+    border-radius: 10px;
+    box-shadow: 0px 0px 7px black;    
+}
+
 div.fotos {
     min-width: 280px;
     max-width: 768px;
@@ -115,20 +130,7 @@ div img {
           
 }
 
-section.capitolio {
-    min-width: 280px;
-    max-width: 768px;
-    display: flex;
-    flex-flow: row wrap;
-    justify-content: center; /* para alinhar o item no centro*/
-}
 
-section img {
-    width: 160px;
-    margin: 10px;
-    border-radius: 10px;
-    box-shadow: 0px 0px 7px black;    
-}
 
 footer {
     background-image: linear-gradient(to left, var(--cor4), var(--cor2));
