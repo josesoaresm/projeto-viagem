@@ -3,7 +3,7 @@
 @media screen and (min-width:400px) and (max-width: 992px) {    
     
     h1 {
-        color: blue;
+        color: rgba(0, 0, 255, 0.274);
     }
 
     h2 {
@@ -11,13 +11,21 @@
         text-align: center;
     }
 
+    p {
+        width: 100vw;
+        margin-left: 5px;
+        margin-right: 5px;
+        text-align: justify;
+     }  
+
     main {
-        background-color: #42d80715;
-        width: 650px;
+        background-color: #42d80700;
+        width: 768px;
         height: 2400px;
         margin-left: 0px;
         margin-top: 128px;
-        border-radius: 10px;   
+        border-radius: 10px; 
+        border: 1px solid blue;  
     }
      
     iframe {
@@ -34,28 +42,21 @@
     }
      
     article {  
-         width: 650px;
+         width: 768px;
          height: 830px;
          margin-left:0px;
          margin-top: 10px;
-              
+         border: 1px solid rgb(81, 255, 0); 
     }
       
     article> img {        
          width: 200px;
          border-radius: 10px;
          margin-left: 25px;
-    }
-
-    p {
-       width: 100vw;
-       margin-left: 5px;
-       margin-right: 5px;
-       text-align: justify;
-    }  
+    }   
      
     article.leticia {  
-         width: 650px;
+         width: 768px;
          height: 310px;
          margin-top: 10px;
          margin-left: 0px;       
@@ -68,14 +69,15 @@
     }   
      
     article.mae {
-         width: 650px;
+         width: 768px;
          height: 800px;
          margin-top: 0px;
          margin-left: 0px;
+         background-color: rgba(137, 43, 226, 0.082);
     }
      
      rticle.mae > img {
-         width: 100px;
+         width: 768px;
          margin-left: 25px;
          border-radius: 10px;
     }
@@ -168,7 +170,7 @@
     article.mae {
          width: 97vw;
          height: 300px;
-         margin-top: 0px;25
+         margin-top: 0px;
          margin-left: 0px;
          /*border: 1px dotted black;*/
     }
