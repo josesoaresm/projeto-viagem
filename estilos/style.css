@@ -29,7 +29,7 @@ html, body {
 }
 
 body {
-     font-family: Arial, Helvetica, sans-serif;
+   font-family: Arial, Helvetica, sans-serif;
 }
 
 header {     
@@ -107,14 +107,17 @@ article.clicar {
 }
 
 article.lago {
-    background-image: linear-gradient(to left, var(--cor4), var(--cor2)); 
+   background-color: rgba(0, 128, 0, 0.212);
     margin-top: 10px;     
 }
 
 p.lago {
     margin-left: 10px;
     margin-top: 10px;
-    color: white;
+    color: blue;
+    font-size: 0.8em;
+    text-align: justify;
+    margin-right: 10px;
 }
 
 main { 
