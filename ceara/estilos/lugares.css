@@ -98,8 +98,7 @@ article {
     width: 375px;
     height: 830px;
     margin-left:0px;
-    margin-top: 10px;
-         
+    margin-top: 10px;         
 }
  
 article> img {        
@@ -117,8 +116,7 @@ article.leticia {
     width: 375px;
     height: 310px;
     margin-top: 10px;
-    margin-left: 0px;
-  
+    margin-left: 0px;  
 }
  
 article.leticia > img {
@@ -153,19 +151,12 @@ article.mae > p {
 article > img:hover{
    transform: scale(1.5);
 }
-
-
   
 footer {
     background-image: linear-gradient(to left, var(--cor4), var(--cor2));
-    font-family: var(--fonte-destaque);
-    display: block;
-   margin-top: 30px;
+    font-family: var(--fonte-destaque); 
+    text-align: center; 
+    color: white;
+    padding: 10px;
 }
 
-footer > p {
-    font-size: 0.8em;
-    margin-left: 20px;
-    font-family: var(--fonte-padrao); 
-    color: rgb(196, 165, 165); 
-}
