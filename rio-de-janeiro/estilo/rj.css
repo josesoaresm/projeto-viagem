@@ -66,26 +66,27 @@ h1 {
      margin-top: 15px;
  }
 
- h2 {
+h2 {
     font-size: 1em;
     color: #0073E6;
     text-align: center;
- }
+}
 
- h3 {
+h3 {
     color: #0073E6;
     font-size: 0.6em;
     text-align: center;
     margin: auto;    
- }
+}
 
- p {
+p {
     margin-left: 10px;
     margin-right: 10px;
     text-align: justify;
- }
+    text-indent: 30px;
+}
 
- main { 
+main { 
     background-color: #003c470e;       
     max-width: 768px;
     height: 100%;    
@@ -93,6 +94,7 @@ h1 {
 }
 
 section {
+    
     
 }
 
@@ -153,10 +155,16 @@ div img {
 div.parati {
     background-color: #9977085d;
     max-width: 768px;
-    height: 400px;
+    height: 100px;
     display: flex;
     flex-flow: row wrap;  
 }
+
+h4 {
+    color: #02327a; 
+    text-align: center;
+    margin: auto;    
+ }
 
 
 footer {

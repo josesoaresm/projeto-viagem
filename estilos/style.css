@@ -107,14 +107,14 @@ article.clicar {
 }
 
 article.lago {
-   background-color: rgba(0, 0, 0, 0.39);
+   background-color: rgba(0, 0, 0, 0.801);
     margin-top: 10px;     
 }
 
 p.lago {
     margin-left: 10px;
     margin-top: 10px;
-    color: blue;
+    color: white;
     font-size: 0.8em;
     text-align: justify;
     margin-right: 10px;
