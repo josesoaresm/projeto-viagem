@@ -80,12 +80,11 @@ main {
 }
 
 iframe {
-    width: 480px;
+    width: 420px;
     height: 420px;
-    margin-left: 10px;        
+    margin-left: 0px;        
     margin-top: 10px; 
-    border: 1px dotted black; 
-    align-items: center;
+    /* border: 1px dotted black; */    
 }
 
 p {
