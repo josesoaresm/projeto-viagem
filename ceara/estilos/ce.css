@@ -75,7 +75,7 @@ h2 {
 main {
     background-color: #9977081c;
     width: 100vw; 
-    max-width: 768px;
+    
     height: 100%;    
     margin-top: 58px;
     /*border: 1px dotted black; */  
@@ -115,7 +115,7 @@ article.leticia {
  }
 
 article.barra {  
-    width: 90vw;
+    width: 100vw;
     display: flex;
     flex-flow: row wrap;
     justify-content: center; /* para alinhar o item no centro*/   
