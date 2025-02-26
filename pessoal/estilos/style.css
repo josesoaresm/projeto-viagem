@@ -105,6 +105,18 @@ div.img p {
     text-align: center;
  }
 
+ div.arvere {
+    border: 1px solid rgba(0, 0, 255, 0.055); 
+    box-shadow: 0px 0px 3px;   
+    display: flex;
+    flex-flow: row-reverse;
+    justify-content: space-evenly;      
+ }
+
+ div.arvere > img {
+    width: 100px;
+ }
+
  footer {
     background-color: rgb(148, 148, 148);
  }
