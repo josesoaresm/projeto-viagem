@@ -36,6 +36,13 @@ h3 {
     color: darkgray;
 }
 
+p {
+    text-align: justify;
+    margin-left: 0px;
+    margin-right: 10px;
+    
+}
+
 i#burguer {
     background-color: rgb(48, 48, 48);
     color: white;
@@ -92,7 +99,7 @@ main {
 
 
 
-article > p {
+article > p {    
     text-align: justify;
     margin-bottom: 0px;  /*Espaçamento entre os parágrafos*/
     text-indent: 20px;
@@ -111,7 +118,7 @@ div.foto img {
     width: 100px; 
 }
 
-div.img p {
+div.img p {    
     font-size: 0.5em;
     color: blue;
     text-align: center;
