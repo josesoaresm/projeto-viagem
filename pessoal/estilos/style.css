@@ -14,6 +14,7 @@ body, html {
 
 header {
     background-color: rgb(148, 148, 148);
+    width: 100vw;
 }
 
 h1 {
@@ -93,7 +94,7 @@ main {
 
 article > p {
     text-align: justify;
-    margin-bottom: 5px;  /*Espaçamento entre os parágrafos*/
+    margin-bottom: 0px;  /*Espaçamento entre os parágrafos*/
     text-indent: 20px;
 }
 
@@ -130,11 +131,8 @@ div.img p {
  }
 
  footer {
-    background-color: rgb(148, 148, 148);
+   text-align: center;
+   color: rgba(0, 0, 255, 0.637);
  }
 
- footer P {
-    font-size: 0.8em;
-    color: white;
-    margin-left: 20px;
- }
+ 
