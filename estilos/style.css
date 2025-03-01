@@ -89,7 +89,7 @@ div {
    display: block;
    display: flex;
    flex-flow: row wrap;    
-   justify-content: end;
+   justify-content: center;
 }
 
 div > a > abbr > img {
