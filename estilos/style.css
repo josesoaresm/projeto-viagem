@@ -83,12 +83,15 @@ h2 {
 }
 
 div {
-   margin: auto;
+    margin: 0px;
    display: block;
+   display: flex;
+   flex-flow: row wrap;    
+   justify-content: center;
 }
 
 div > a > abbr > img {
-    margin: 20px;
+    margin: 0px;
     box-shadow: 1px 1px 3px black;
     border-radius: 5px;
 }
@@ -97,6 +100,62 @@ div > a abbr img:hover {
     border: 1px solid rgba(255, 255, 255, 0.637);
     box-shadow: 5px 5px 10px rgba(0, 0, 0, 0.623);    
 }
+
+.ce {
+    background-color: #006B0C; 
+    width: 72px;
+    height: 40px; 
+    margin: 10px; 
+  }
+  
+  .sp {
+      background-color: #006B0C; 
+      width: 72px;
+      height: 40px; 
+      margin: 10px; 
+  }
+  
+  .pr {
+      background-color: #006B0C; 
+      width: 72px;
+      height: 40px; 
+      margin: 10px; 
+  }
+  
+  .rj {
+      background-color: #006B0C; 
+      width: 72px;
+      height: 40px; 
+      margin: 10px; 
+  }
+  
+  .rn {
+      background-color: #006B0C; 
+      width: 72px;
+      height: 40px; 
+      margin: 10px; 
+  }
+  
+  .mg {
+      background-color: #006B0C; 
+      width: 72px;
+      height: 40px; 
+      margin: 10px; 
+  }
+  
+  .br {
+      background-color: #006B0C; 
+      width: 72px;
+      height: 40px; 
+      margin: 10px; 
+  }
+  
+  .pb {
+      background-color: #006B0C; 
+      width: 72px;
+      height: 40px; 
+      margin: 10px; 
+  }
 
 article.clicar {
     background-image: linear-gradient(to left, var(--cor4), var(--cor2));
