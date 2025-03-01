@@ -89,7 +89,7 @@ div {
    display: block;
    display: flex;
    flex-flow: row wrap;    
-   justify-content: ;
+   justify-content: end;
 }
 
 div > a > abbr > img {
@@ -104,42 +104,37 @@ div > a abbr img:hover {
 }
 
 .ce {
-  background-color: #006B0C; 
   width: 72px;
   height: 40px; 
   margin: 10px; 
 }
 
 .sp {
-    background-color: #006B0C; 
     width: 72px;
     height: 40px; 
     margin: 10px; 
 }
 
 .pr {
-    background-color: #006B0C; 
     width: 72px;
     height: 40px; 
     margin: 10px; 
 }
 
 .rj {
-    background-color: #006B0C; 
     width: 72px;
     height: 40px; 
     margin: 10px; 
 }
 
 .rn {
-    background-color: #006B0C; 
     width: 72px;
     height: 40px; 
     margin: 10px; 
 }
 
 .mg {
-    background-color: #006B0C; 
+    
     width: 72px;
     height: 40px; 
     margin: 10px; 
