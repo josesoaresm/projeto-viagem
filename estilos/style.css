@@ -96,6 +96,7 @@ div > a > abbr > img {
     margin: 0px;
     box-shadow: 1px 1px 3px black;
     border-radius: 5px;
+    width: 68px;
 }
 
 div > a abbr img:hover {
@@ -141,14 +142,12 @@ div > a abbr img:hover {
 }
 
 .br {
-    background-color: #006B0C; 
     width: 72px;
     height: 40px; 
     margin: 10px; 
 }
 
 .pb {
-    background-color: #006B0C; 
     width: 72px;
     height: 40px; 
     margin: 10px; 
