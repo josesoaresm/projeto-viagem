@@ -126,7 +126,7 @@ article.leticia {
  article.leticia > img {
      width: 350px;
      margin-top: 10px;
-     margin-left: 10px;
+     margin-left: 5px;
      box-shadow: 0px 0px 7px black;
  }
 
@@ -140,7 +140,7 @@ article.barra {
 article.barra > img {        
     width: 350px;
     margin-top: 10px;
-    margin-left: 10px;
+    margin-left: 5px;
     box-shadow: 0px 0px 7px black;
     text-align: center; 
 }
