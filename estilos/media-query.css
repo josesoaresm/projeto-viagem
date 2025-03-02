@@ -1,0 +1,19 @@
+@charset "UTF-8";
+
+@media screen and (max-width: 768px) {   
+
+    section#img {
+        background-image: url(../imagens/indo-paraty-m.jpg);
+        width: 100vw;
+    }
+   
+}
+
+@media screen and (min-width: 992px) and (max-width: 1200px) {
+
+    section#img {
+        background-image: url('../imagens/indo-paraty1.jpg');
+        height: 600px;
+    }
+    
+}
