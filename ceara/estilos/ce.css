@@ -83,7 +83,7 @@ main {
 iframe {
     width: 380px;
     height: 420px;
-    margin-left: 10px;        
+    margin-left: 0px;        
     margin-top: 10px; 
     /* border: 1px dotted black; */    
 }
