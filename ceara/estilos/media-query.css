@@ -14,6 +14,10 @@
        max-width: 1200px;
     }
 
+    iframe {
+        width: 39vw;
+    }
+
     article.barra > img {
         width: 400px;
     }   
