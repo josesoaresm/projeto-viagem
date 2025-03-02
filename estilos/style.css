@@ -170,6 +170,7 @@ div > a abbr img:hover {
 
 article.clicar {
     background-image: linear-gradient(to left, var(--cor4), var(--cor2));
+    width: 98vw;
     text-align: center;
     text-shadow: 2px 1px 5px black;
     color: rgb(196, 165, 165);
@@ -180,7 +181,7 @@ article.clicar {
 article.lago {
     background-color: rgba(0, 0, 0, 0.5); 
     margin-top: -10px; 
-    color: blue;
+    color: white;
     text-align: justify;        
 }
 
@@ -267,7 +268,10 @@ p.amarelo {
 
 footer {
     background-image: linear-gradient(to left, var(--cor4), var(--cor2));
-    text-align: center;
+    font-family: var(--fonte-destaque); 
+    text-align: center; 
+    color: white;
+    padding: 10px; 
       
 }
 
