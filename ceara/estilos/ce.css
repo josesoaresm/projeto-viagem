@@ -88,24 +88,6 @@ iframe {
     /* border: 1px dotted black; */    
 }
 
-div.direita {
-    background-color: #0073e64d;
-    background-image: url('../imagens/ceara-2-2003.jpg');
-    background-repeat: no-repeat;
-    background-position: right center; 
-    background-size: cover;  
-    height: 300px;
-    display: none;
-}
-
-div.texto {
-    background-color: #0073e667;
-    width: 350px;
-    height: 200px;
-    display: none;
-}
-
-
 p {
     font-size: 1em;
     margin-left: 5px;
