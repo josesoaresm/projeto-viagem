@@ -105,7 +105,7 @@ div.texto {
 iframe {
     width: 380px;
     height: 420px;
-    margin-left: 10px;        
+    margin-left: 0px;        
     margin-top: 10px; 
     /* border: 1px dotted black; */    
 }
@@ -123,15 +123,15 @@ p {
 article.leticia {  
     width: 100vw;
     height: 100%;
-     display: flex;
-     flex-flow: row wrap;
-     justify-content: center; /* para alinhar o item no centro*/
+    display: flex;
+    flex-flow: row wrap;
+    justify-content: center; /* para alinhar o item no centro*/
  }
   
  article.leticia > img {
      width: 350px;
      margin-top: 10px;
-     margin-left: 10px;
+     margin-left: 0px;
      box-shadow: 0px 0px 7px black;
  }
 
@@ -145,7 +145,7 @@ article.barra {
 article.barra > img {        
     width: 350px;
     margin-top: 10px;
-    margin-left: 10px;
+    margin-left: 0px;
     box-shadow: 0px 0px 7px black;
     text-align: center; 
 }
@@ -160,7 +160,7 @@ article.mae {
 article.mae > img {
     width: 160px;
     margin-top: 10px;
-    margin-left: 10px;
+    margin-left: 0px;
     box-shadow: 0px 0px 7px black;
 }
 
