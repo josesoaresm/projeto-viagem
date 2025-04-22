@@ -110,6 +110,20 @@ section.ibira > img {
     flex-grow: 1;   /* Pode encilher */   
 }
 
+section.resentes {
+  border: 1px solid black; 
+
+}
+
+section.resentes > img {
+    width: 320px;
+    padding: 5px;
+    margin-left: 20px;
+    margin-top: 10px;
+    box-shadow: 0px 0px 7px black;
+
+}
+
 article {
     background-image: linear-gradient(to left, #99770842, #c4a5a527);
     width: 100%;   
@@ -191,19 +205,6 @@ div.li2 img {
     margin-top: 10px;
     box-shadow: 0px 0px 7px black;    
 }
-
-div.animacao {
-    width: 384px;   
-}
-
-div.animacao img {
-    min-width: 284px;
-    max-width: 384px;
-    margin-top: 10px;
-    box-shadow: 0px 0px 7px black;
-    text-align: center; 
-}
-
 div.video {
     width: 384px;
 }
