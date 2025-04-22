@@ -116,9 +116,8 @@ section.resentes {
 }
 
 section.resentes > img {
-    width: 320px;
+    max-width: 758px;
     padding: 5px;
-    margin-left: 20px;
     margin-top: 10px;
     box-shadow: 0px 0px 7px black;
 
