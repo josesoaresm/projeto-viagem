@@ -116,10 +116,11 @@ section.resentes {
 }
 
 section.resentes > img {
-    max-width: 764px;
-    padding: 5px;
+    min-width: 284px;
+    max-width: 384px;
     margin-top: 10px;
     box-shadow: 0px 0px 7px black;
+    text-align: center;    
 
 }
 
