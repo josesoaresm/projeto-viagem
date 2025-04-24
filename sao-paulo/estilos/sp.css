@@ -233,15 +233,6 @@ section.foto-aleatoria img {
     text-align: center;    
 }
 
-section.icomprida {
-    background-color: #12c1981a;
-
-}
-
-section.icomprida > strong {
-    margin-left: 10px;
-}
-
 footer {
     background-image: linear-gradient(to left, var(--cor4), var(--cor2));
     font-family: var(--fonte-destaque); 
