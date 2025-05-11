@@ -32,10 +32,9 @@ body {
     padding: 10px;
     text-align: center;
     height: 40px;  
-    width: 100vw;      
-}
-
-  nav {   
+    width: 100vw; 
+  }
+    nav {   
     position: fixed;
     top: 0px;
     left: -150px;
@@ -91,4 +90,10 @@ main {
   .grid-album img:hover {
     transform: scale(1.05);
   }
+
+  footer {
+    background-image: linear-gradient(to left, var(--cor4), var(--cor2));
+    font-family: var(--fonte-destaque); 
+    text-align: center; 
+}
   
