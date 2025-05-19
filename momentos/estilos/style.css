@@ -75,6 +75,18 @@ main {
     font-size: 1em;
   }
 
+  .gonzaga > p {
+    font-family: var(--fonte-padrao);
+    text-align: justify;
+  }
+
+  .60anos > P {
+     font-family: var(--fonte-padrao);
+    text-align: justify;
+  }
+    
+  
+
  
   .grid-album {
     display: grid;
