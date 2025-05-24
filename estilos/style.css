@@ -41,7 +41,8 @@ header {
     color: rgb(196, 165, 165);  
     padding: 5px;
     text-align: center;  
-    width: 100vw;      
+    width: 100vw;   
+    border: 2px solid rgba(0, 0, 255, 0.144);   
 }
 
 menu img {
@@ -183,18 +184,7 @@ article.clicar {
     margin-top: 20px;
 }
 
-article.lago {
-    background-color: rgba(0, 0, 0, 0.5); 
-    margin-top: -10px; 
-    color: white;
-    text-align: justify;        
-}
 
-p.lago {
-    margin-left: 10px;
-    margin-right: 10px;
-    margin-top: 10px;    
-}
 
 main { 
     width: 100vw;
@@ -215,7 +205,7 @@ section#img {
 }
 
 p#img {
-    background-color: rgba(0, 0, 0, 0.507);
+    background-color: rgba(0, 0, 0, 0);
     color: white;
     width: 250px;
     height: 300px;
@@ -234,7 +224,7 @@ section#img2 {
 }
 
 p#img2 {
-    background-color: rgba(0, 0, 0, 0.507);
+    background-color: rgba(0, 0, 0, 0.103);
     color: white;
     width: 250px;
     height: 150px;
@@ -249,25 +239,17 @@ section.lago {
     background-position: right center;
     background-size: cover;
     background-attachment: fixed;
-    height: 400px;    
+    height: 400px;  
+    
 }
 
-section.amarelo {
-    background-color: rgba(255, 255, 0, 0.021);
-    width: 250px;
-    height: 300px;
-    padding: 30px;
-    margin-top: -380px;
-    margin-left: 40px;
-}
-
-p.amarelo {
+p.lago {
     color: white;
     width: 250px;
     height: 150px;
-    padding: 30px;
+    padding: 10px;
     margin-top: 30px;
-    margin-left: -25px;
+    margin-left: 45px;   
 }
 
 footer {
@@ -275,7 +257,7 @@ footer {
     font-family: var(--fonte-destaque); 
     text-align: center; 
     color: rgb(196, 165, 165);
-    margin-top: 20px;
+    margin-top: 10px;
     padding: 5px; 
       
 }
