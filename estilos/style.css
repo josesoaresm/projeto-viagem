@@ -32,8 +32,9 @@ body {
      font-family: Arial, Helvetica, sans-serif;
 }
 
-header {     
-    background-image: linear-gradient(to left, var(--cor4), var(--cor2));
+header {  
+    background-color: white;   
+    /*background-image: linear-gradient(to left, var(--cor4), var(--cor2));*/
     position: fixed;
     top: 0px;    
     font-family: var(--fonte-padrao); 
@@ -90,7 +91,11 @@ div {
    display: flex;
    flex-flow: row wrap;
    justify-content: baseline;
-}    
+} 
+
+div.img {
+   /* background-color: red;*/
+}
 
 div > a > abbr > img {    
     margin: 0px;
@@ -201,7 +206,7 @@ main {
 }
 
 section#img {    
-    background-image: url('../imagens/indo-paraty-inicio.jpg');
+    background-image: url('../imagens/estrada.jpg');
     background-repeat: no-repeat;
     background-position: right center;
     background-size: cover;
@@ -220,7 +225,7 @@ p#img {
 }
 
 section#img2 {
-    background-image: url('../imagens/estrada-p.jpg');
+    background-image: url('../imagens/paraty.jpg');
     background-repeat: no-repeat;
     background-position: right center;
     background-size: cover;
@@ -239,7 +244,7 @@ p#img2 {
 }
 
 section.lago {
-    background-image: url(../imagens/capt-p.jpg);
+    background-image: url(../imagens/capt-m.jpg);
     background-repeat: no-repeat;
     background-position: right center;
     background-size: cover;
@@ -266,11 +271,12 @@ p.amarelo {
 }
 
 footer {
-    background-image: linear-gradient(to left, var(--cor4), var(--cor2));
+   /* background-image: linear-gradient(to left, var(--cor4), var(--cor2)); */
     font-family: var(--fonte-destaque); 
     text-align: center; 
-    color: white;
-    padding: 10px; 
+    color: rgb(196, 165, 165);
+    margin-top: 20px;
+    padding: 5px; 
       
 }
 
