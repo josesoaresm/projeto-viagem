@@ -72,7 +72,13 @@ main {
   h2 {
     padding: 10px;
     color: #0073E6;
-    font-size: 1em;
+    font-size: 0.8em;
+  }
+
+  p {
+    font-family: Arial, Helvetica, sans-serif;
+    font-size: 0.8em;
+    color: blue;
   }
 
   .gonzaga > p {
