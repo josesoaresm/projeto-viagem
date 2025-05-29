@@ -78,20 +78,9 @@ main {
   p {
     font-family: Arial, Helvetica, sans-serif;
     font-size: 0.8em;
+    text-align: justify;
     color: blue;
   }
-
-  .gonzaga > p {
-    font-family: var(--fonte-padrao);
-    text-align: justify;
-  }
-
-  .niv60anos > P {
-     font-family: var(--fonte-padrao);
-    text-align: justify;
-  }
-    
-  
 
  
   .grid-album {
@@ -112,6 +101,27 @@ main {
   
   .grid-album img:hover {
     transform: scale(1.05);
+  }
+
+  .grid-antigo {
+    display: grid;
+    grid-template-columns: repeat(auto-fit, minmax(200px, 1fr));
+    gap: 15px;
+    max-width: 1000px;
+    margin: 0px;
+  }
+  
+  .grid-antigo img {
+    width: 30%;
+    height: auto;
+    border-radius: 10px;
+    box-shadow: 0 2px 5px rgba(0,0,0,0.1);
+    transition: transform 0.3s;
+  }
+  
+  .grid-antigo img:hover {
+    transform: scale(1.05);
+
   }
 
   footer {
