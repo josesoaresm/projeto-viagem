@@ -33,13 +33,13 @@ body {
     height: 40px;  
     width: 100vw; 
   }
-    nav {   
+    nav {  
+     
     position: fixed;
-    top: 0px;
-    left: -150px;
+    top: 0px;    
     padding: 5px; 
     height: 10px;
-    width: 30vw;               
+    width: 130px;               
 }
 
 nav > a > abbr img {

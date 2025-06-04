@@ -50,11 +50,12 @@ menu img {
     border-radius: 5px;
 }
 
-nav {    
+nav { 
+   
     position: fixed;
     top:5px;
-    padding: 15px; 
-    width: 30vw;           
+    padding: 5px; 
+    width: 130px;           
 }
 
 nav > a > abbr img {
