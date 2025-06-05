@@ -69,12 +69,20 @@ h1 {
 main {  
     background-image: linear-gradient(to left, rgba(255, 255, 0, 0.555), rgba(255, 0, 0, 0.151)); 
     max-width: 768px;
-    height: 100%;    
-    margin-top: 60px;   
+    height: 100vh;    
+    margin-top: 57px;   
 }
 
-img {
+.foto img {
     width: 300px;
+    margin-left: 10px;
+    border-radius: 10px;
+    box-shadow: 2px 2px 7px black;
+}
+
+p {
+    margin-left: 10px;
+    text-align: justify;
 }
 
 section.topo {
@@ -90,4 +98,11 @@ section.topo > img {
     flex-basis: 700px;
     flex-shrink: 1; /* Pode crescer */
     flex-grow: 1;   /* Pode encilher */   
+}
+
+
+footer {
+    background-image: linear-gradient(to left, var(--cor4), var(--cor2));
+    font-family: var(--fonte-destaque); 
+    text-align: center; 
 }
