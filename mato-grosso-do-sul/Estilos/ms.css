@@ -76,3 +76,18 @@ main {
 img {
     width: 300px;
 }
+
+section.topo {
+    min-width: 280px;
+    max-width: 768px;
+    display: flex;
+    flex-flow: nowrap;   
+}
+
+section.topo > img {
+    min-width: 280px;
+    max-width: 768px;
+    flex-basis: 700px;
+    flex-shrink: 1; /* Pode crescer */
+    flex-grow: 1;   /* Pode encilher */   
+}
