@@ -60,7 +60,7 @@ nav > a abbr img:hover {
 
 h1 {
    font-family: var(--fonte-padrao);   
-    font-size: 2em;
+    font-size: 1.5em;
     color: var(--cor3);
     text-shadow: 2px 2px 5px rgba(0, 0, 0, 0.247); 
     margin-top: 0px;
