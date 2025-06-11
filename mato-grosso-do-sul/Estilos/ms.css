@@ -84,8 +84,9 @@ main {
 }
 
 .foto {
-   
-    grid-template-columns: auto;
+   display: grid;
+  
+  
 }
 
 .foto img {
