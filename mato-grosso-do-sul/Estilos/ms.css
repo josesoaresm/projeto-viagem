@@ -77,7 +77,7 @@ h1 {
 p {
     font-family: var(--fonte-feeling);
     font-size: 0.7em;
-    width: 170px;
+    width: 350px;
 }
 
 main {
@@ -98,7 +98,7 @@ main {
   }
 
 .grid-matogrosso img {
-    width: 170px;
+    width: 350px;
     height: auto;
     border-radius: 10px;
     box-shadow: 0 2px 5px rgba(0,0,0,0.1);
