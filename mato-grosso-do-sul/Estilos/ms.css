@@ -78,6 +78,7 @@ p {
     font-family: var(--fonte-feeling);
     font-size: 0.7em;
     width: 350px;
+    margin-left: 20px;
 }
 
 main {
