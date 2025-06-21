@@ -34,9 +34,7 @@ body {
     background: black url(../imagens/mgs.jpg) no-repeat;
     background-size: cover;
     background-position: center center;
-    height: 100vh;
 }
-
 
 header {     
     /*background-image: linear-gradient(to left, var(--cor4), var(--cor2)); */ 
@@ -80,7 +78,7 @@ p {
     font-family: var(--fonte-feeling);
     font-size: 0.7em;
     width: 250px;
-    margin-left: 5px;
+    margin-left: 10px;
 }
 
 main {
@@ -106,6 +104,7 @@ main {
     border-radius: 10px;
     box-shadow: 0 2px 5px rgba(0,0,0,0.1);
     transition: transform 0.3s;
+    margin-left: 15px;
   }
   
   .grid-matogrosso img:hover {
@@ -125,7 +124,8 @@ article {
     font-size: 0.5em;
     color: blue;
     margin-top: 20px;
-    margin-left: 15px;
+    padding: 10px;
+    margin-left: 10px;
 }
 
 footer {
