@@ -34,6 +34,7 @@ body {
     background: black url(../imagens/mgs.jpg) no-repeat;
     background-size: cover;
     background-position: center center;
+    height: 100nh;
 }
 
 header {     
@@ -84,7 +85,7 @@ p {
 main {
     background-color: rgba(255, 255, 255, 0.842);
     width: 100vw;
-    height: 100%;    
+    height: 100nh;    
     margin: auto;       /*para ficar centralizada*/
     margin-top: 48px;       
     border-radius: 10px;    
@@ -129,7 +130,8 @@ article {
 }
 
 footer {
-    background-image: linear-gradient(to left, var(--cor4), var(--cor2));
-    font-family: var(--fonte-destaque); 
+    /*background-image: linear-gradient(to left, var(--cor4), var(--cor2));*/
+    background-color: white;
+    font-family: var(--fonte-padrao); 
     text-align: center; 
 }
