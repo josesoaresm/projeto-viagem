@@ -78,8 +78,8 @@ h1 {
 p {
     font-family: var(--fonte-feeling);
     font-size: 0.7em;
-    width: 350px;
-    margin-left: 15px;
+    width: 250px;
+    margin-left: 5px;
 }
 
 main {
