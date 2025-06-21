@@ -78,7 +78,7 @@ p {
     font-family: var(--fonte-feeling);
     font-size: 0.7em;
     width: 350px;
-    margin-left: 20px;
+    margin-left: 15px;
 }
 
 main {
@@ -95,15 +95,13 @@ main {
     grid-template-columns: repeat(auto-fit, minmax(200px, 1fr));
     gap: 15px;
     max-width: 1000px;
-    height: 100vh;
     margin: 0px;
   }
 
 .grid-matogrosso img {
-    width: 350px;
+   width: 100%;
     height: auto;
-    margin-left: 10px;
-    border-radius: 15px;
+    border-radius: 10px;
     box-shadow: 0 2px 5px rgba(0,0,0,0.1);
     transition: transform 0.3s;
   }
@@ -118,6 +116,13 @@ main {
     flex-basis: 700px;
     flex-shrink: 1; /* Pode crescer */
     flex-grow: 1;   /* Pode encilher */   
+}
+
+article {
+    font-family: Arial, Helvetica, sans-serif;
+    font-size: 0.5em;
+    color: blue;
+    margin-left: 15px;
 }
 
 footer {
