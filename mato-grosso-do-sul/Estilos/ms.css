@@ -34,6 +34,7 @@ body {
     background: black url(../imagens/mgs.jpg) no-repeat;
     background-size: cover;
     background-position: center center;
+    height: 100vh;
 }
 
 
@@ -122,6 +123,7 @@ article {
     font-family: Arial, Helvetica, sans-serif;
     font-size: 0.5em;
     color: blue;
+    margin-top: 20px;
     margin-left: 15px;
 }
 
