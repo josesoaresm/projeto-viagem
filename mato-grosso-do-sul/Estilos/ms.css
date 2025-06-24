@@ -190,19 +190,17 @@ article > div.media {
 
 div.media > img {
     display: block;
-    margin: auto;
+    margin-left: 10px;
     width: 300px;
     padding: 10px;
 }
 
 div.media > iframe {
     display: block;
-    margin: auto;
+    margin-left: 10px;
     
-    width: 90%;
+    width: 85%;
 }
-
-
 
 footer {
     /*background-image: linear-gradient(to left, var(--cor4), var(--cor2));*/
