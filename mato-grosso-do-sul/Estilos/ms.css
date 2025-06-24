@@ -73,13 +73,22 @@ h1 {
     color: var(--cor3);
     text-shadow: 2px 2px 5px rgba(0, 0, 0, 0.247); 
     margin-top: 0px;
+    text-align: center;
 }
+
+h2 {
+    margin-bottom: 20px;
+    line-height: 1.2em;
+    text-align: left;
+}
+
 
 p {
     font-family: var(--fonte-feeling);
     font-size: 0.7em;
     width: 300px;
     margin-left: 10px;
+    margin-bottom: 10px; /*Para separar dos títulos*/
 }
 
 main {
@@ -122,8 +131,7 @@ main {
 
 article {
     font-family: Arial, Helvetica, sans-serif;
-    font-size: 0.5em;
-    color: blue;
+    font-size: 1em;   
     margin-top: 20px;
     padding: 10px;
     margin-left: 10px;
@@ -147,6 +155,51 @@ article {
 }
 .grid-ilus img:hover {
     transform: scale(1.05);
+}
+
+///////////////////////////////////////////////
+
+
+section.flex-content {
+    padding: 20px;
+    background-color: rgb(180, 176, 176);
+
+    display: flex;
+    flex-flow: column nowrap;
+}
+
+article.text-media {
+    display: flex;
+    flex-flow: row wrap;
+    justify-content: space-between;
+}
+
+article.media-text {
+    display: flex;
+    flex-flow: row wrap-reverse; 
+    justify-content: space-between;   
+}
+
+article > div.text {
+    flex: 1 1 500px;
+}
+
+article > div.media {
+    flex: 1 0 400px;
+}
+
+div.media > img {
+    display: block;
+    margin: auto;
+    width: 300px;
+    padding: 10px;
+}
+
+div.media > iframe {
+    display: block;
+    margin: auto;
+    
+    width: 90%;
 }
 
 
