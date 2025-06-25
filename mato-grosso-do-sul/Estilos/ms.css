@@ -102,8 +102,8 @@ main {
 
 /*-------------------------------------------------Carrossel*/
 .carrossel {
-      width: 325px;
-      height: 195px;
+      width: 468px;
+      height: 234px;
       overflow: hidden;
       position: relative;
       border: 3px solid #fff;
@@ -113,13 +113,13 @@ main {
     
     .imagens {
       display: flex;
-      width: calc(325px * 4); /* Número de imagens */
+      width: calc(468px * 4); /* Número de imagens */
       animation: slide 12s infinite;
     }
 
     .imagens img {
-      width: 325px;
-      height: 195px;
+      width: 468px;
+      height: 234px;
       object-fit: cover;
     }
 
