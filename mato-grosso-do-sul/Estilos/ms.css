@@ -100,6 +100,39 @@ main {
     border-radius: 10px;    
 }
 
+.carrossel {
+      width: 250px;
+      height: 150px;
+      overflow: hidden;
+      position: relative;
+      border: 3px solid #fff;
+      border-radius: 10px;
+      margin-left: 10px;
+    }
+    /*-------------------------------------------------Carrossel*/
+    .imagens {
+      display: flex;
+      width: calc(250px * 4); /* Número de imagens */
+      animation: slide 12s infinite;
+    }
+
+    .imagens img {
+      width: 250px;
+      height: 150px;
+      object-fit: cover;
+    }
+
+    @keyframes slide {
+      0% { transform: translateX(0); }
+      25% { transform: translateX(0); }
+      30% { transform: translateX(-500px); }
+      50% { transform: translateX(-500px); }
+      55% { transform: translateX(-1000px); }
+      75% { transform: translateX(-1000px); }
+      80% { transform: translateX(-1500px); }
+      100% { transform: translateX(-1500px); }
+    }
+    /*------------------------------------------------------*/
 .grid-matogrosso {
     display: grid;
     grid-template-columns: repeat(auto-fit, minmax(200px, 1fr));
@@ -199,7 +232,7 @@ div.media > iframe {
     display: block;
     margin-left: 10px;
     
-    width: 85%;
+    width: 90%;
 }
 
 footer {
