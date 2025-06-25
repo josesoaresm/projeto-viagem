@@ -100,6 +100,7 @@ main {
     border-radius: 10px;    
 }
 
+/*-------------------------------------------------Carrossel*/
 .carrossel {
       width: 250px;
       height: 150px;
@@ -109,7 +110,7 @@ main {
       border-radius: 10px;
       margin-left: 10px;
     }
-    /*-------------------------------------------------Carrossel*/
+    
     .imagens {
       display: flex;
       width: calc(250px * 4); /* Número de imagens */
@@ -223,14 +224,14 @@ article > div.media {
 
 div.media > img {
     display: block;
-    margin-left: 10px;
+    margin-left: 5px;
     width: 300px;
-    padding: 10px;
+    padding: 5px;
 }
 
 div.media > iframe {
     display: block;
-    margin-left: 10px;
+    margin-left: 0px;
     
     width: 90%;
 }
