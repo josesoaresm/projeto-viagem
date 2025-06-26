@@ -102,7 +102,7 @@ main {
 
 /*-------------------------------------------------Carrossel*/
 .carrossel {
-      width: 400px;
+      width: 380px;
       height: 200px;
       overflow: hidden;
       position: relative;
@@ -113,12 +113,12 @@ main {
     
     .imagens {
       display: flex;
-      width: calc(400px * 4); /* Número de imagens */
+      width: calc(580px * 4); /* Número de imagens */
       animation: slide 12s infinite;
     }
 
     .imagens img {
-      width: 400px;
+      width: 500px;
       height: 200px;
       object-fit: cover;
     }
