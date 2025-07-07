@@ -108,6 +108,8 @@ main {
       position: relative;
       border: 3px solid #fff;
       border-radius: 10px;
+      margin-left: 0px;
+      padding: 0px;
     }
 
     .imagens {
