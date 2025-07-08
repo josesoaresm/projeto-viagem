@@ -37,7 +37,7 @@ header {
     position: fixed;
     top: 0px;    
     font-family: var(--fonte-padrao);       
-    padding: 10px;
+    padding: px;
     text-align: center;  
     width: 100vw;      
 }
@@ -45,7 +45,7 @@ header {
 nav {   
     position: fixed;
     top: 0px;
-    padding: 5px; 
+    padding: px; 
     width: 100vw            
 }
 
@@ -80,8 +80,8 @@ h2 {
 p {
     font-family: var(--fonte-feeling);
     font-size: 0.7em;
-    width: 300px;
-    margin-left: 10px;
+    width: px;
+    margin-left: px;
     margin-bottom: 10px; /*Para separar dos títulos*/
 }
 
