@@ -82,7 +82,7 @@ p {
     font-family: var(--fonte-feeling);
     font-size: 0.7em;
     width: px;
-    margin-left: px;
+    margin-left: 15px;
     margin-bottom: 10px; /*Para separar dos títulos*/
 }
 
