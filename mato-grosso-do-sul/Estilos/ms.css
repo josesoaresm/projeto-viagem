@@ -28,8 +28,8 @@ body {
     /*background: black url(../imagens/mgs.jpg) no-repeat;*/
     background-size: cover;
     background-position: center center;
-    height: 100nh;
-    width: 100vw;
+    /*height: 100nh;
+    width: 100vw;*/
 }
 
 header {     
@@ -47,7 +47,7 @@ nav {
     position: fixed;
     top: 5px;
     padding: px; 
-    width: 100vw            
+    width: 100vw;            
 }
 
 nav > a > abbr img {
