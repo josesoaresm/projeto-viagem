@@ -25,11 +25,11 @@
 }
 
 body {
-    /*background: black url(../imagens/mgs.jpg) no-repeat;
+    background: black url(../imagens/mgs.jpg) no-repeat;
     background-size: cover;
     background-position: center center;
     height: 100nh;
-    width: 100vw;*/
+    width: 100vw;
 }
 
 header {     
@@ -93,7 +93,7 @@ main {
     margin: auto;       /*para ficar centralizada*/
     margin-top: 38px;       
     border-radius: 10px;  
-    border: 2px solid black;  
+    /*border: 2px solid black;  */
 }
 
 div.topo > img {
