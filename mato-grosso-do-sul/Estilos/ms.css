@@ -85,6 +85,8 @@ h3 {
 }
 
 
+
+
 p {
     font-family: var(--fonte-feeling);
     font-size: 0.7em;
@@ -109,6 +111,20 @@ div.topo > img {
     flex-basis: 700px;
     flex-shrink: 1; /* Pode crescer */
     flex-grow: 1;   /* Pode encilher */   
+}
+
+div.teresinha {
+    background-color: #997708;
+    width: 380px;
+    height: 240px;
+    text-align: center;
+    border-radius: 5px;
+
+}
+
+div.teresinha > img {
+    width: 350px;
+    
 }
 
 .grid-matogrosso {
