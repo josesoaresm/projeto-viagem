@@ -118,7 +118,7 @@ div.teresinha {
     text-align: center;
     width: 380px;
     height: 240px;
-    margin: auto;
+    margin-left: -10px;
     border-radius: 10px;
 
 }
