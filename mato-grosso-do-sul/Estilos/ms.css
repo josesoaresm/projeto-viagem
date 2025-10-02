@@ -79,6 +79,7 @@ h2 {
 
 h3 {
     font-family: var(--fonte-padrao);
+    color: #0073E6;;
     margin-bottom: 20px;
     line-height: 1em;
     text-align: center;
