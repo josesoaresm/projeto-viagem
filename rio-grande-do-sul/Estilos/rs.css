@@ -79,9 +79,9 @@ h2 {
 
 
 p {
-    font-family: var(--fonte-feeling);
+    font-family: Arial, Helvetica, sans-serif;
     font-size: 0.7em;
-    width: px;
+    color: rgba(0, 0, 255, 0.507);
     margin-left: 15px;
     margin-bottom: 10px; /*Para separar dos títulos*/
 }
