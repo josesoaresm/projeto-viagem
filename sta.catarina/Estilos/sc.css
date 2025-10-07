@@ -125,13 +125,13 @@ div.topo > img {
     transform: scale(1.05);
   }
 
-  div.video {
+  /*div.video {
     background-color: var(--cor5);
     margin: 0px -20px 30px -20px;
     padding: 20px;
     padding-bottom: 59%;
     position: relative;
-}
+}*/
 
 /*div.video > iframe {
     position: absolute;
@@ -140,6 +140,8 @@ div.topo > img {
     width: 90%;
     height: 90%;
 }*/
+
+
 
 
 
