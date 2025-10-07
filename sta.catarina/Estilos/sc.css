@@ -97,11 +97,11 @@ main {
 }
 
 div.topo > img {
-    width: 100vw;
+   /* width: 100vw;
     height: 100px;
     flex-basis: 700px;
-    flex-shrink: 1; /* Pode crescer */
-    flex-grow: 1;   /* Pode encilher */   
+    flex-shrink: 1;  Pode crescer 
+    flex-grow: 1;    Pode encilher   */
 }
 
 .grid-scatarina {
@@ -128,7 +128,8 @@ div.topo > img {
   div.video {
    background-color: #997708;
     margin: 0px -20px 30px 0px;
-    width: 390px;
+    width: 355px;
+    height: 3740px;
     padding: 20px;
     padding-bottom: 59%;
     position: relative;
