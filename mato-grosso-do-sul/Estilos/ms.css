@@ -165,10 +165,22 @@ div.video {
    
     margin: 0px -20px 30px 15px;
     width: 355px;
-    height: 2000px;
+    height: 1690px;
     padding: 20px;
     padding-bottom: 59%;
     position: relative;
+}
+
+div.video {
+    width: 384px;
+}
+
+div.video video {
+    min-width: 284px;
+    max-width: 384px;
+    margin-top: 10px;
+    box-shadow: 0px 0px 7px black;
+    text-align: center; 
 }
 
 footer {
