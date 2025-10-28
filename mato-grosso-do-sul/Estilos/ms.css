@@ -161,12 +161,12 @@ article {
     margin-left: 5px;
 }
 
-div.video {
-   
+div.video { 
+    background-color: #003C47;  
     margin: 0px -20px 30px 15px;
-    width: 355px;
-    height: 1690px;
-    padding: 20px;
+    width: 315px;
+    height: 1700px;
+    padding: 0px;
     padding-bottom: 59%;
     position: relative;
 }
