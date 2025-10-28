@@ -171,17 +171,17 @@ div.video {
     position: relative;
 }
 
-div.video {
-    width: 384px;
+/*div.video {
+    width: 375px;
 }
 
 div.video video {
     min-width: 284px;
-    max-width: 384px;
+    max-width: 375px;
     margin-top: 10px;
     box-shadow: 0px 0px 7px black;
     text-align: center; 
-}
+} */
 
 footer {
     /*background-image: linear-gradient(to left, var(--cor4), var(--cor2));*/
