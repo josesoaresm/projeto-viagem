@@ -233,6 +233,37 @@ section.foto-aleatoria img {
     text-align: center;    
 }
 
+
+div.ubatuba {
+    background-color: rgba(0, 0, 255, 0.247);
+    text-align: center;
+     max-width: 768px;
+    display: flex;
+    flex-flow: row wrap;    
+}
+
+div.ubatuba > img {
+    max-width: 384px;
+    margin-top: 10px;
+    box-shadow: 0px 0px 7px black;
+    text-align: center;    
+}
+
+section.ubatuba {
+   background-image: linear-gradient(to left, #99770842, #ada5c4be);
+    width: 100%;   
+    margin-left: 0px;
+    margin-top: 10px; 
+}
+
+section.ubatuba img {
+    min-width: 142px;
+    max-width: 192px;
+    margin-top: 10px;
+    box-shadow: 0px 0px 7px black;
+    text-align: center;    
+}
+
 footer {
     background-image: linear-gradient(to left, var(--cor4), var(--cor2));
     font-family: var(--fonte-destaque); 
