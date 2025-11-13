@@ -86,15 +86,10 @@ h3 {
     margin: auto;    
 }
 
-h4 {
-    color: #0073E6;
-    font-size: 1.3em;
-    text-align: center;
-    margin: auto;
-
-}
-
 p {
+    color: rgba(0, 34, 128, 0.719);
+    font-family: Verdana, Geneva, Tahoma, sans-serif;
+    font-size: 0.8em;
     margin-right: 10px;
     margin-left: 10px;
     margin-top: 10px;
@@ -237,7 +232,7 @@ section.foto-aleatoria img {
 section.ubatuba {
     background-color: rgba(0, 0, 255, 0.247);
     text-align: center;
-     max-width: 768px;
+    max-width: 768px;
     display: flex;
     flex-flow: row wrap;    
 }
@@ -251,7 +246,7 @@ section.ubatuba > img {
 
 div.ubatuba {
    background-image: linear-gradient(to left, #99770842, #ada5c4be);
-    width: 100%;   
+   width: 100%;   
     margin-left: 0px;
     margin-top: 10px; 
 }
