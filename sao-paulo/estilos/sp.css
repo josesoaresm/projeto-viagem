@@ -110,7 +110,7 @@ section.ibira > img {
 
     flex-basis: 700px;
     flex-shrink: 1; /* Pode crescer */
-    flex-grow: 1;   /* Pode encilher */   
+    flex-grow: 1;   /* Pode encilher */ 
 }
 
 section.resentes {
@@ -124,7 +124,6 @@ section.resentes > img {
     margin-top: 10px;
     box-shadow: 0px 0px 7px black;
     text-align: center;    
-
 }
 
 article {
@@ -186,7 +185,6 @@ div.isabel img:hover {
 }
 
 div.liliane {
-   
     max-width: 768px;
     display: flex;
     flex-flow: row wrap; 
@@ -227,8 +225,6 @@ section.foto-aleatoria img {
     box-shadow: 0px 0px 7px black;
     text-align: center;    
 }
-
-
 section.ubatuba {
     background-color: rgba(0, 0, 255, 0.247);
     text-align: center;
@@ -245,19 +241,36 @@ section.ubatuba > img {
 }
 
 div.ubatuba {
-   background-image: linear-gradient(to left, #99770842, #ada5c4be);
-   width: 100%;   
-    margin-left: 0px;
-    margin-top: 10px; 
+   background-color: #7eb2e615;
+    max-width: 768px;
+    display: flex;
+    flex-flow: row wrap;  
 }
 
-div.ubatuba img {
+div.rdg img {
     min-width: 142px;
     max-width: 192px;
     margin-top: 10px;
     box-shadow: 0px 0px 7px black;
     text-align: center;    
 }
+
+div.cachoeira img {
+    min-width: 142px;
+    max-width: 192px;
+    margin-top: 10px;
+    box-shadow: 0px 0px 7px black;
+    text-align: center;  
+}
+div.caiaque img {
+    min-width: 142px;
+    max-width: 192px;
+    margin-top: 10px;
+    box-shadow: 0px 0px 7px black;
+    text-align: center;  
+}
+
+
 
 footer {
     background-image: linear-gradient(to left, var(--cor4), var(--cor2));
